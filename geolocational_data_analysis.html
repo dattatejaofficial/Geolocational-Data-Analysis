@@ -1,0 +1,3450 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_650a1bd10fd38d8662a94bc8b0c9a1a6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_650a1bd10fd38d8662a94bc8b0c9a1a6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_650a1bd10fd38d8662a94bc8b0c9a1a6 = L.map(
+                "map_650a1bd10fd38d8662a94bc8b0c9a1a6",
+                {
+                    center: [12.9716, 77.5946],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e30dd6d6ca4bde468869f2f8bb823fba = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_e30dd6d6ca4bde468869f2f8bb823fba.addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var marker_6361f3fccb6bc99b2b37769d2cff2520 = L.marker(
+                [12.9730729, 77.59708669999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_92eb424feaa01229667bbe47314a4bff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6361f3fccb6bc99b2b37769d2cff2520.setIcon(icon_92eb424feaa01229667bbe47314a4bff);
+        
+    
+        var popup_9501c872d05db7957087c46e3f089d28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51e8c90561ba90533d69b00990ae814c = $(`<div id="html_51e8c90561ba90533d69b00990ae814c" style="width: 100.0%; height: 100.0%;">Prestige Luxury Apartments</div>`)[0];
+                popup_9501c872d05db7957087c46e3f089d28.setContent(html_51e8c90561ba90533d69b00990ae814c);
+            
+        
+
+        marker_6361f3fccb6bc99b2b37769d2cff2520.bindPopup(popup_9501c872d05db7957087c46e3f089d28)
+        ;
+
+        
+    
+    
+            var marker_15b5b27d4ae94e73cc002d2e0b04c12d = L.marker(
+                [12.9710529, 77.597139],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_143459c1fa8a2c343a9baf716915f702 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_15b5b27d4ae94e73cc002d2e0b04c12d.setIcon(icon_143459c1fa8a2c343a9baf716915f702);
+        
+    
+        var popup_00e3b5311ba1ce1ba4b563aebfd17608 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0c0fcbee9f5dd52a3e893343e0635f2 = $(`<div id="html_a0c0fcbee9f5dd52a3e893343e0635f2" style="width: 100.0%; height: 100.0%;">Garden Apartments</div>`)[0];
+                popup_00e3b5311ba1ce1ba4b563aebfd17608.setContent(html_a0c0fcbee9f5dd52a3e893343e0635f2);
+            
+        
+
+        marker_15b5b27d4ae94e73cc002d2e0b04c12d.bindPopup(popup_00e3b5311ba1ce1ba4b563aebfd17608)
+        ;
+
+        
+    
+    
+            var marker_68e3258f52e7b91656c4b408009dd9ae = L.marker(
+                [12.9704892, 77.5961767],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_ff06edce4f018ac48c19a11be5418a32 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_68e3258f52e7b91656c4b408009dd9ae.setIcon(icon_ff06edce4f018ac48c19a11be5418a32);
+        
+    
+        var popup_f5f53b9d7a09d86acbf8178d2650eda1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_418e23ab8ef6379e7167c66cc18e2e93 = $(`<div id="html_418e23ab8ef6379e7167c66cc18e2e93" style="width: 100.0%; height: 100.0%;">Sunningdale</div>`)[0];
+                popup_f5f53b9d7a09d86acbf8178d2650eda1.setContent(html_418e23ab8ef6379e7167c66cc18e2e93);
+            
+        
+
+        marker_68e3258f52e7b91656c4b408009dd9ae.bindPopup(popup_f5f53b9d7a09d86acbf8178d2650eda1)
+        ;
+
+        
+    
+    
+            var marker_5f6ff9f7e6c53e336f805a3e01429736 = L.marker(
+                [12.9738185, 77.5971615],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_040d9d1b06819a875f2604ee3ad645c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5f6ff9f7e6c53e336f805a3e01429736.setIcon(icon_040d9d1b06819a875f2604ee3ad645c3);
+        
+    
+        var popup_57b434cd5ffea481e5bddc6df5baca96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88c5984988574cecf808190c4a6442be = $(`<div id="html_88c5984988574cecf808190c4a6442be" style="width: 100.0%; height: 100.0%;">Van Gogh's Garden [Total Environment]</div>`)[0];
+                popup_57b434cd5ffea481e5bddc6df5baca96.setContent(html_88c5984988574cecf808190c4a6442be);
+            
+        
+
+        marker_5f6ff9f7e6c53e336f805a3e01429736.bindPopup(popup_57b434cd5ffea481e5bddc6df5baca96)
+        ;
+
+        
+    
+    
+            var marker_6c52c59783f593bd4e54401e1edeb1f8 = L.marker(
+                [12.9702915, 77.59905169999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_080d04752c393a51d1f1ed76a4836925 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6c52c59783f593bd4e54401e1edeb1f8.setIcon(icon_080d04752c393a51d1f1ed76a4836925);
+        
+    
+        var popup_a1dcfe03edc7126edf00b64a828f3867 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ece0c893544fdd155825e5a8077cdf17 = $(`<div id="html_ece0c893544fdd155825e5a8077cdf17" style="width: 100.0%; height: 100.0%;">Stanmore Apartments</div>`)[0];
+                popup_a1dcfe03edc7126edf00b64a828f3867.setContent(html_ece0c893544fdd155825e5a8077cdf17);
+            
+        
+
+        marker_6c52c59783f593bd4e54401e1edeb1f8.bindPopup(popup_a1dcfe03edc7126edf00b64a828f3867)
+        ;
+
+        
+    
+    
+            var marker_3d884b2fe7b0c42e23c11db9f71df920 = L.marker(
+                [12.9707715, 77.5959786],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_d3c12452b8c1e976f48e169ed3d8cbff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3d884b2fe7b0c42e23c11db9f71df920.setIcon(icon_d3c12452b8c1e976f48e169ed3d8cbff);
+        
+    
+        var popup_d4586a9ee62cfff66c942bc8828fd9f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4769c035137680cdfaf07a8d06091fb = $(`<div id="html_f4769c035137680cdfaf07a8d06091fb" style="width: 100.0%; height: 100.0%;">Maranatha Apartments</div>`)[0];
+                popup_d4586a9ee62cfff66c942bc8828fd9f8.setContent(html_f4769c035137680cdfaf07a8d06091fb);
+            
+        
+
+        marker_3d884b2fe7b0c42e23c11db9f71df920.bindPopup(popup_d4586a9ee62cfff66c942bc8828fd9f8)
+        ;
+
+        
+    
+    
+            var marker_ea7a57a1c7620b417b4cd1a6f13a63ae = L.marker(
+                [12.974322599999999, 77.5977322],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_71596452c646a5cd415f2bdff1142723 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ea7a57a1c7620b417b4cd1a6f13a63ae.setIcon(icon_71596452c646a5cd415f2bdff1142723);
+        
+    
+        var popup_d2e26e0827f59d879096b5bb3ab2d754 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78be6d7753d605485d9d636d044f6c26 = $(`<div id="html_78be6d7753d605485d9d636d044f6c26" style="width: 100.0%; height: 100.0%;">Rockline Westend Apartment</div>`)[0];
+                popup_d2e26e0827f59d879096b5bb3ab2d754.setContent(html_78be6d7753d605485d9d636d044f6c26);
+            
+        
+
+        marker_ea7a57a1c7620b417b4cd1a6f13a63ae.bindPopup(popup_d2e26e0827f59d879096b5bb3ab2d754)
+        ;
+
+        
+    
+    
+            var marker_c7049fb033c8ec576f7e972afd1d91df = L.marker(
+                [12.9629094, 77.595317],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_a41a38621a34310a87f3f9314d7855bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c7049fb033c8ec576f7e972afd1d91df.setIcon(icon_a41a38621a34310a87f3f9314d7855bc);
+        
+    
+        var popup_603de656b63ff8c7fbc856dbfb3f3d4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb5c686950b2c4b7dc9aad50493cceed = $(`<div id="html_fb5c686950b2c4b7dc9aad50493cceed" style="width: 100.0%; height: 100.0%;">Prestige Richmond Apartments</div>`)[0];
+                popup_603de656b63ff8c7fbc856dbfb3f3d4b.setContent(html_fb5c686950b2c4b7dc9aad50493cceed);
+            
+        
+
+        marker_c7049fb033c8ec576f7e972afd1d91df.bindPopup(popup_603de656b63ff8c7fbc856dbfb3f3d4b)
+        ;
+
+        
+    
+    
+            var marker_d51703b2ec7b61d507bb66ecbf918951 = L.marker(
+                [12.9738247, 77.59686599999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_f66a868b517869d2f1cb56be53141983 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d51703b2ec7b61d507bb66ecbf918951.setIcon(icon_f66a868b517869d2f1cb56be53141983);
+        
+    
+        var popup_76fef613ef16b3efc97a70567aa248d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afd6d286724c7164b47ac9533844c69e = $(`<div id="html_afd6d286724c7164b47ac9533844c69e" style="width: 100.0%; height: 100.0%;">Regency Margosa</div>`)[0];
+                popup_76fef613ef16b3efc97a70567aa248d7.setContent(html_afd6d286724c7164b47ac9533844c69e);
+            
+        
+
+        marker_d51703b2ec7b61d507bb66ecbf918951.bindPopup(popup_76fef613ef16b3efc97a70567aa248d7)
+        ;
+
+        
+    
+    
+            var marker_32898dbabddeb7bbba4124f313d1caab = L.marker(
+                [12.9746394, 77.5983871],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_0aade4a1f843923e4beca85c14d8fe50 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_32898dbabddeb7bbba4124f313d1caab.setIcon(icon_0aade4a1f843923e4beca85c14d8fe50);
+        
+    
+        var popup_fd4c555312c4f65c1acb82875baa0692 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62f2819846bcfd085d912ec4f51aab3e = $(`<div id="html_62f2819846bcfd085d912ec4f51aab3e" style="width: 100.0%; height: 100.0%;">Casa lavalle apartment</div>`)[0];
+                popup_fd4c555312c4f65c1acb82875baa0692.setContent(html_62f2819846bcfd085d912ec4f51aab3e);
+            
+        
+
+        marker_32898dbabddeb7bbba4124f313d1caab.bindPopup(popup_fd4c555312c4f65c1acb82875baa0692)
+        ;
+
+        
+    
+    
+            var marker_f418edc4ae9247656b1c1b0b38827797 = L.marker(
+                [12.970092, 77.59584799999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_7215af617fc6c9f415d64815e9f1477c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f418edc4ae9247656b1c1b0b38827797.setIcon(icon_7215af617fc6c9f415d64815e9f1477c);
+        
+    
+        var popup_00d6c460aad5a4f998af83a9a3adc579 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bc70128e6c47b4cba6de3e930da4293 = $(`<div id="html_3bc70128e6c47b4cba6de3e930da4293" style="width: 100.0%; height: 100.0%;">Cubbon View Apartment</div>`)[0];
+                popup_00d6c460aad5a4f998af83a9a3adc579.setContent(html_3bc70128e6c47b4cba6de3e930da4293);
+            
+        
+
+        marker_f418edc4ae9247656b1c1b0b38827797.bindPopup(popup_00d6c460aad5a4f998af83a9a3adc579)
+        ;
+
+        
+    
+    
+            var marker_ed234c79984cc395ec6c904fe4dd17ff = L.marker(
+                [12.970293499999999, 77.5959725],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_0134b450a18c59254f6362352025665b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ed234c79984cc395ec6c904fe4dd17ff.setIcon(icon_0134b450a18c59254f6362352025665b);
+        
+    
+        var popup_29391a176a93942d3d50d64f0a5e4ddb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c525d092e17144930f7c43fae69d528 = $(`<div id="html_9c525d092e17144930f7c43fae69d528" style="width: 100.0%; height: 100.0%;">Prashanth Apartments</div>`)[0];
+                popup_29391a176a93942d3d50d64f0a5e4ddb.setContent(html_9c525d092e17144930f7c43fae69d528);
+            
+        
+
+        marker_ed234c79984cc395ec6c904fe4dd17ff.bindPopup(popup_29391a176a93942d3d50d64f0a5e4ddb)
+        ;
+
+        
+    
+    
+            var marker_9a551d58c5b9db36cc937cbcf1c11099 = L.marker(
+                [12.9715987, 77.5945627],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_c18e753be7ff07deac4519ba139d856d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9a551d58c5b9db36cc937cbcf1c11099.setIcon(icon_c18e753be7ff07deac4519ba139d856d);
+        
+    
+        var popup_d11581d15de2cdb125bc43bf7ffbdce4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_565dc3fb1677130d1bc7981eae23a5b2 = $(`<div id="html_565dc3fb1677130d1bc7981eae23a5b2" style="width: 100.0%; height: 100.0%;">pebble beare apartment in bangalore</div>`)[0];
+                popup_d11581d15de2cdb125bc43bf7ffbdce4.setContent(html_565dc3fb1677130d1bc7981eae23a5b2);
+            
+        
+
+        marker_9a551d58c5b9db36cc937cbcf1c11099.bindPopup(popup_d11581d15de2cdb125bc43bf7ffbdce4)
+        ;
+
+        
+    
+    
+            var marker_3d236b958d74997907350c657ed1710e = L.marker(
+                [12.9724662, 77.5993625],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_b1e75f3d6854eaf685678368e0626cef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3d236b958d74997907350c657ed1710e.setIcon(icon_b1e75f3d6854eaf685678368e0626cef);
+        
+    
+        var popup_d63ae764258da17fdd7f96f4e789e339 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_461c589a5708fb98d69c9fbe2685893d = $(`<div id="html_461c589a5708fb98d69c9fbe2685893d" style="width: 100.0%; height: 100.0%;">St. Michaels Apartments</div>`)[0];
+                popup_d63ae764258da17fdd7f96f4e789e339.setContent(html_461c589a5708fb98d69c9fbe2685893d);
+            
+        
+
+        marker_3d236b958d74997907350c657ed1710e.bindPopup(popup_d63ae764258da17fdd7f96f4e789e339)
+        ;
+
+        
+    
+    
+            var marker_3a853ed9b9352534a3ed4bbd9532934e = L.marker(
+                [12.964115399999999, 77.6011663],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_9203ee847cf095fd8b0446be4a4fab6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3a853ed9b9352534a3ed4bbd9532934e.setIcon(icon_9203ee847cf095fd8b0446be4a4fab6a);
+        
+    
+        var popup_a36403cb7b9fdb3ff1bd9d6b0937f204 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3020cc56321852cd3fe90fa5687c023 = $(`<div id="html_c3020cc56321852cd3fe90fa5687c023" style="width: 100.0%; height: 100.0%;">Bailey Apartment</div>`)[0];
+                popup_a36403cb7b9fdb3ff1bd9d6b0937f204.setContent(html_c3020cc56321852cd3fe90fa5687c023);
+            
+        
+
+        marker_3a853ed9b9352534a3ed4bbd9532934e.bindPopup(popup_a36403cb7b9fdb3ff1bd9d6b0937f204)
+        ;
+
+        
+    
+    
+            var marker_3a66715076286546b2b6da3ea456fa04 = L.marker(
+                [12.969659799999999, 77.60035359999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_eedbaae0f3562d3204fff7a4d86eb3ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3a66715076286546b2b6da3ea456fa04.setIcon(icon_eedbaae0f3562d3204fff7a4d86eb3ae);
+        
+    
+        var popup_51292dc7f47db0a5179e9fc4b3076cf1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b56efed030d630a96fd1e3d4dc1e5a6e = $(`<div id="html_b56efed030d630a96fd1e3d4dc1e5a6e" style="width: 100.0%; height: 100.0%;">Prestige Marrakesh Apartments</div>`)[0];
+                popup_51292dc7f47db0a5179e9fc4b3076cf1.setContent(html_b56efed030d630a96fd1e3d4dc1e5a6e);
+            
+        
+
+        marker_3a66715076286546b2b6da3ea456fa04.bindPopup(popup_51292dc7f47db0a5179e9fc4b3076cf1)
+        ;
+
+        
+    
+    
+            var marker_1286693b33b0be8b12c2bbfa833a6e47 = L.marker(
+                [12.9747284, 77.5982947],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_9b1a4dc9913b59dd0039952e84b99ca2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1286693b33b0be8b12c2bbfa833a6e47.setIcon(icon_9b1a4dc9913b59dd0039952e84b99ca2);
+        
+    
+        var popup_ea4cbfe2766aa058bf9a9db71148ea5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65cb29577d83369fc264107447ff9698 = $(`<div id="html_65cb29577d83369fc264107447ff9698" style="width: 100.0%; height: 100.0%;">VISHWA APARTMENT</div>`)[0];
+                popup_ea4cbfe2766aa058bf9a9db71148ea5f.setContent(html_65cb29577d83369fc264107447ff9698);
+            
+        
+
+        marker_1286693b33b0be8b12c2bbfa833a6e47.bindPopup(popup_ea4cbfe2766aa058bf9a9db71148ea5f)
+        ;
+
+        
+    
+    
+            var marker_af417654577702b20b8c7a298bce0070 = L.marker(
+                [12.964093799999999, 77.60477999999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_13992ef148238787564f4dab939f187b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_af417654577702b20b8c7a298bce0070.setIcon(icon_13992ef148238787564f4dab939f187b);
+        
+    
+        var popup_ddfc5163ed8009fdf20f8e8bdf5620e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d985ca434f8e691c09511cca1f827775 = $(`<div id="html_d985ca434f8e691c09511cca1f827775" style="width: 100.0%; height: 100.0%;">Wellington Park Apartments</div>`)[0];
+                popup_ddfc5163ed8009fdf20f8e8bdf5620e0.setContent(html_d985ca434f8e691c09511cca1f827775);
+            
+        
+
+        marker_af417654577702b20b8c7a298bce0070.bindPopup(popup_ddfc5163ed8009fdf20f8e8bdf5620e0)
+        ;
+
+        
+    
+    
+            var marker_97a6ab932e36410f401e072172d0de7f = L.marker(
+                [12.9696077, 77.5973475],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_c55a662b27a96f0baba358ff90396820 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_97a6ab932e36410f401e072172d0de7f.setIcon(icon_c55a662b27a96f0baba358ff90396820);
+        
+    
+        var popup_7731cf8358eef6e7b67a4ad777af5060 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e8d5847d0a2335f6e0249fa917d3dfd = $(`<div id="html_7e8d5847d0a2335f6e0249fa917d3dfd" style="width: 100.0%; height: 100.0%;">Ajanta Apartment</div>`)[0];
+                popup_7731cf8358eef6e7b67a4ad777af5060.setContent(html_7e8d5847d0a2335f6e0249fa917d3dfd);
+            
+        
+
+        marker_97a6ab932e36410f401e072172d0de7f.bindPopup(popup_7731cf8358eef6e7b67a4ad777af5060)
+        ;
+
+        
+    
+    
+            var marker_889c068e1f267e46eb8d85f8686e1816 = L.marker(
+                [12.966187999999999, 77.60414089999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_5df2345a42fe28975fcd4aa2d1981e1a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_889c068e1f267e46eb8d85f8686e1816.setIcon(icon_5df2345a42fe28975fcd4aa2d1981e1a);
+        
+    
+        var popup_4872af12a57c31041776bd7ca94d1a23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0bea7193a0deeb3b6ef625fbaea6b6c9 = $(`<div id="html_0bea7193a0deeb3b6ef625fbaea6b6c9" style="width: 100.0%; height: 100.0%;">Spartan Heights Apartment</div>`)[0];
+                popup_4872af12a57c31041776bd7ca94d1a23.setContent(html_0bea7193a0deeb3b6ef625fbaea6b6c9);
+            
+        
+
+        marker_889c068e1f267e46eb8d85f8686e1816.bindPopup(popup_4872af12a57c31041776bd7ca94d1a23)
+        ;
+
+        
+    
+    
+            var marker_c7e34ce1c0ef2e37340d0385a53a9500 = L.marker(
+                [12.9859583, 77.59596669999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_69426592159c62c8ea373b62dddc3556 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c7e34ce1c0ef2e37340d0385a53a9500.setIcon(icon_69426592159c62c8ea373b62dddc3556);
+        
+    
+        var popup_e4d48fb54d365d86190e4cf1eef8181b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e2a6a88685bcab5b29d449fce8f393d = $(`<div id="html_0e2a6a88685bcab5b29d449fce8f393d" style="width: 100.0%; height: 100.0%;">Cunningham Apartments</div>`)[0];
+                popup_e4d48fb54d365d86190e4cf1eef8181b.setContent(html_0e2a6a88685bcab5b29d449fce8f393d);
+            
+        
+
+        marker_c7e34ce1c0ef2e37340d0385a53a9500.bindPopup(popup_e4d48fb54d365d86190e4cf1eef8181b)
+        ;
+
+        
+    
+    
+            var marker_7c1a4062d4b51fdc36e8fceef0782cd5 = L.marker(
+                [12.9623762, 77.5979728],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_10857323989868d80087e1c60ce0bba5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7c1a4062d4b51fdc36e8fceef0782cd5.setIcon(icon_10857323989868d80087e1c60ce0bba5);
+        
+    
+        var popup_295b8ccd89d10b8307906a0190f8dfb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a730e3972e7b6b9d5b82bed26c6dd74 = $(`<div id="html_5a730e3972e7b6b9d5b82bed26c6dd74" style="width: 100.0%; height: 100.0%;">Cornwell Rustumji Apartments.</div>`)[0];
+                popup_295b8ccd89d10b8307906a0190f8dfb0.setContent(html_5a730e3972e7b6b9d5b82bed26c6dd74);
+            
+        
+
+        marker_7c1a4062d4b51fdc36e8fceef0782cd5.bindPopup(popup_295b8ccd89d10b8307906a0190f8dfb0)
+        ;
+
+        
+    
+    
+            var marker_8957e71852f8b9c1b5c65b490c21b08d = L.marker(
+                [12.963003899999999, 77.60501459999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_afa2ed68f8e3cef65af01268ede4fd47 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8957e71852f8b9c1b5c65b490c21b08d.setIcon(icon_afa2ed68f8e3cef65af01268ede4fd47);
+        
+    
+        var popup_3e323a0ff7b4c0b1f44e2e14c39db8b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f76101f31dbcd1aa39748bff27be634f = $(`<div id="html_f76101f31dbcd1aa39748bff27be634f" style="width: 100.0%; height: 100.0%;">Meridian Dreamz Apartment</div>`)[0];
+                popup_3e323a0ff7b4c0b1f44e2e14c39db8b5.setContent(html_f76101f31dbcd1aa39748bff27be634f);
+            
+        
+
+        marker_8957e71852f8b9c1b5c65b490c21b08d.bindPopup(popup_3e323a0ff7b4c0b1f44e2e14c39db8b5)
+        ;
+
+        
+    
+    
+            var marker_95d9149b5c698e3679f2ab0e003a6c29 = L.marker(
+                [12.961467899999999, 77.5992016],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_f7ef3286e7d6ff6938063bb537c6329f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_95d9149b5c698e3679f2ab0e003a6c29.setIcon(icon_f7ef3286e7d6ff6938063bb537c6329f);
+        
+    
+        var popup_24f9d76be12865233bcd9e4833bd23b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c2d0350ff469ec4f55a7acdca5800bc = $(`<div id="html_5c2d0350ff469ec4f55a7acdca5800bc" style="width: 100.0%; height: 100.0%;">Skyline Apartments</div>`)[0];
+                popup_24f9d76be12865233bcd9e4833bd23b9.setContent(html_5c2d0350ff469ec4f55a7acdca5800bc);
+            
+        
+
+        marker_95d9149b5c698e3679f2ab0e003a6c29.bindPopup(popup_24f9d76be12865233bcd9e4833bd23b9)
+        ;
+
+        
+    
+    
+            var marker_0a66bb01e739f928132f4656ee76f4a9 = L.marker(
+                [12.9814501, 77.6010749],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_a92954039f48c55169a597d973890133 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0a66bb01e739f928132f4656ee76f4a9.setIcon(icon_a92954039f48c55169a597d973890133);
+        
+    
+        var popup_b6b8461d2cfe48232789b4d8e708e806 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7bc9d6141e9b85ac43198f6fc64b04c8 = $(`<div id="html_7bc9d6141e9b85ac43198f6fc64b04c8" style="width: 100.0%; height: 100.0%;">Tara Apartments</div>`)[0];
+                popup_b6b8461d2cfe48232789b4d8e708e806.setContent(html_7bc9d6141e9b85ac43198f6fc64b04c8);
+            
+        
+
+        marker_0a66bb01e739f928132f4656ee76f4a9.bindPopup(popup_b6b8461d2cfe48232789b4d8e708e806)
+        ;
+
+        
+    
+    
+            var marker_1d98553730c059f6a768b923e002f9bc = L.marker(
+                [12.9606952, 77.59458819999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_89141d21f1307a52654d2e3371b0186f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1d98553730c059f6a768b923e002f9bc.setIcon(icon_89141d21f1307a52654d2e3371b0186f);
+        
+    
+        var popup_b6053e39444c84cae2d9dad6d7686689 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_940d833c86d57b395e912945e86960e4 = $(`<div id="html_940d833c86d57b395e912945e86960e4" style="width: 100.0%; height: 100.0%;">Neelkanth Apartments</div>`)[0];
+                popup_b6053e39444c84cae2d9dad6d7686689.setContent(html_940d833c86d57b395e912945e86960e4);
+            
+        
+
+        marker_1d98553730c059f6a768b923e002f9bc.bindPopup(popup_b6053e39444c84cae2d9dad6d7686689)
+        ;
+
+        
+    
+    
+            var marker_a079d2a2fbd088f70cbe61048c754246 = L.marker(
+                [12.964735899999999, 77.5980563],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_86df77cddd556ede1c6837a06e670354 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a079d2a2fbd088f70cbe61048c754246.setIcon(icon_86df77cddd556ede1c6837a06e670354);
+        
+    
+        var popup_0f96460d016d6b3037b92cdf0f086ed2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b127ee6e2eefa48d88381fabbe1f017 = $(`<div id="html_7b127ee6e2eefa48d88381fabbe1f017" style="width: 100.0%; height: 100.0%;">Langford Grove Apartments</div>`)[0];
+                popup_0f96460d016d6b3037b92cdf0f086ed2.setContent(html_7b127ee6e2eefa48d88381fabbe1f017);
+            
+        
+
+        marker_a079d2a2fbd088f70cbe61048c754246.bindPopup(popup_0f96460d016d6b3037b92cdf0f086ed2)
+        ;
+
+        
+    
+    
+            var marker_7db299f6184b11a5e3f0d9a7010e0500 = L.marker(
+                [12.9705484, 77.6127437],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_a0b3a5c1a4787c35edb41cf4317b68fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7db299f6184b11a5e3f0d9a7010e0500.setIcon(icon_a0b3a5c1a4787c35edb41cf4317b68fd);
+        
+    
+        var popup_b73c35ba673d722b09bee620324b0b70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c9dbad6fa899cd71d06929879d2d7cf = $(`<div id="html_4c9dbad6fa899cd71d06929879d2d7cf" style="width: 100.0%; height: 100.0%;">Spring Leaf Apartment</div>`)[0];
+                popup_b73c35ba673d722b09bee620324b0b70.setContent(html_4c9dbad6fa899cd71d06929879d2d7cf);
+            
+        
+
+        marker_7db299f6184b11a5e3f0d9a7010e0500.bindPopup(popup_b73c35ba673d722b09bee620324b0b70)
+        ;
+
+        
+    
+    
+            var marker_1161d72dad02485f9d9fd5b6d19f5294 = L.marker(
+                [12.9720806, 77.60496289999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_adfb5fc84e35c413b2737981024c59d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1161d72dad02485f9d9fd5b6d19f5294.setIcon(icon_adfb5fc84e35c413b2737981024c59d0);
+        
+    
+        var popup_74ac93d74a7f5ec4740e74faf89a4491 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92538bb5d8d2a0b690e5b34922c55b42 = $(`<div id="html_92538bb5d8d2a0b690e5b34922c55b42" style="width: 100.0%; height: 100.0%;">Mohini Apartments</div>`)[0];
+                popup_74ac93d74a7f5ec4740e74faf89a4491.setContent(html_92538bb5d8d2a0b690e5b34922c55b42);
+            
+        
+
+        marker_1161d72dad02485f9d9fd5b6d19f5294.bindPopup(popup_74ac93d74a7f5ec4740e74faf89a4491)
+        ;
+
+        
+    
+    
+            var marker_27edc1fa506d40ead79dd84e9de6405f = L.marker(
+                [12.9737, 77.59612969999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_19607521f9bcebc72dbfa5fcd3a06002 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_27edc1fa506d40ead79dd84e9de6405f.setIcon(icon_19607521f9bcebc72dbfa5fcd3a06002);
+        
+    
+        var popup_e15cdd9a440736ad191837712d19012d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86abeff616a3d6fdcb8ebcab28639d11 = $(`<div id="html_86abeff616a3d6fdcb8ebcab28639d11" style="width: 100.0%; height: 100.0%;">P Dot G Ruby apartments</div>`)[0];
+                popup_e15cdd9a440736ad191837712d19012d.setContent(html_86abeff616a3d6fdcb8ebcab28639d11);
+            
+        
+
+        marker_27edc1fa506d40ead79dd84e9de6405f.bindPopup(popup_e15cdd9a440736ad191837712d19012d)
+        ;
+
+        
+    
+    
+            var marker_acd245199969d225abfc2453f08a74ae = L.marker(
+                [12.956552199999999, 77.602408],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_2849f5d848ffb38b0aa84adf239e713f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_acd245199969d225abfc2453f08a74ae.setIcon(icon_2849f5d848ffb38b0aa84adf239e713f);
+        
+    
+        var popup_00e0fd9c13feecd5dbcd2eaad2d9a83d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_005e32134eb7abb70d7ebc7868975b09 = $(`<div id="html_005e32134eb7abb70d7ebc7868975b09" style="width: 100.0%; height: 100.0%;">Sky Heights Apartments</div>`)[0];
+                popup_00e0fd9c13feecd5dbcd2eaad2d9a83d.setContent(html_005e32134eb7abb70d7ebc7868975b09);
+            
+        
+
+        marker_acd245199969d225abfc2453f08a74ae.bindPopup(popup_00e0fd9c13feecd5dbcd2eaad2d9a83d)
+        ;
+
+        
+    
+    
+            var marker_a56d51e076a4b7c258de7cc902cfb463 = L.marker(
+                [12.961798499999999, 77.6034214],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_f9e27da584931451c03ba59f4db50729 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a56d51e076a4b7c258de7cc902cfb463.setIcon(icon_f9e27da584931451c03ba59f4db50729);
+        
+    
+        var popup_9ff8ca27ee34d8ae1ecf28c523b8bc8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_307bd04d93321cb2efa27ab78d38036f = $(`<div id="html_307bd04d93321cb2efa27ab78d38036f" style="width: 100.0%; height: 100.0%;">Bushcroft Apartments</div>`)[0];
+                popup_9ff8ca27ee34d8ae1ecf28c523b8bc8e.setContent(html_307bd04d93321cb2efa27ab78d38036f);
+            
+        
+
+        marker_a56d51e076a4b7c258de7cc902cfb463.bindPopup(popup_9ff8ca27ee34d8ae1ecf28c523b8bc8e)
+        ;
+
+        
+    
+    
+            var marker_f5b9d71e7d8ccf4830baeb0f8b88796e = L.marker(
+                [12.963213099999999, 77.5998905],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_e8db53841fb9d5d09372abac04f4460f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f5b9d71e7d8ccf4830baeb0f8b88796e.setIcon(icon_e8db53841fb9d5d09372abac04f4460f);
+        
+    
+        var popup_f0fee935b4e7eb971a02b3cfdf85fdc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2dbc9fb186ed48d5acb9dedd9c5867c = $(`<div id="html_a2dbc9fb186ed48d5acb9dedd9c5867c" style="width: 100.0%; height: 100.0%;">Golden Arch Apartment</div>`)[0];
+                popup_f0fee935b4e7eb971a02b3cfdf85fdc3.setContent(html_a2dbc9fb186ed48d5acb9dedd9c5867c);
+            
+        
+
+        marker_f5b9d71e7d8ccf4830baeb0f8b88796e.bindPopup(popup_f0fee935b4e7eb971a02b3cfdf85fdc3)
+        ;
+
+        
+    
+    
+            var marker_dfb083d1853b559689e0060954422a96 = L.marker(
+                [12.958493599999999, 77.605902],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_e9c00d145b5b650a7e829b823aa72edf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_dfb083d1853b559689e0060954422a96.setIcon(icon_e9c00d145b5b650a7e829b823aa72edf);
+        
+    
+        var popup_8d1f5ab93ce5f879f2ae60707ca985ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b1f717023fbbd21e55769e4e2ff6ba0 = $(`<div id="html_5b1f717023fbbd21e55769e4e2ff6ba0" style="width: 100.0%; height: 100.0%;">The Elgin</div>`)[0];
+                popup_8d1f5ab93ce5f879f2ae60707ca985ea.setContent(html_5b1f717023fbbd21e55769e4e2ff6ba0);
+            
+        
+
+        marker_dfb083d1853b559689e0060954422a96.bindPopup(popup_8d1f5ab93ce5f879f2ae60707ca985ea)
+        ;
+
+        
+    
+    
+            var marker_2c7e98900428acfb17fe738d92dba527 = L.marker(
+                [12.9658944, 77.6127842],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_5c9ce272a9d56862fdd3714315981614 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2c7e98900428acfb17fe738d92dba527.setIcon(icon_5c9ce272a9d56862fdd3714315981614);
+        
+    
+        var popup_39f367c6f8ee8e1d52ffe264b8154823 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1a6ad6879c8abb858e5b224a85f7d3d = $(`<div id="html_b1a6ad6879c8abb858e5b224a85f7d3d" style="width: 100.0%; height: 100.0%;">VijayKiran Apartments</div>`)[0];
+                popup_39f367c6f8ee8e1d52ffe264b8154823.setContent(html_b1a6ad6879c8abb858e5b224a85f7d3d);
+            
+        
+
+        marker_2c7e98900428acfb17fe738d92dba527.bindPopup(popup_39f367c6f8ee8e1d52ffe264b8154823)
+        ;
+
+        
+    
+    
+            var marker_269e21a83db577b92e4161fa669af4da = L.marker(
+                [12.984837599999999, 77.59857699999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_a428b68595de5a1afd1655b13ced9201 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_269e21a83db577b92e4161fa669af4da.setIcon(icon_a428b68595de5a1afd1655b13ced9201);
+        
+    
+        var popup_4fe657b166cd5eeaf9e602d40ee4e36d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cfc3497c3568e18ca4f7ada61ff7768 = $(`<div id="html_8cfc3497c3568e18ca4f7ada61ff7768" style="width: 100.0%; height: 100.0%;">Avalon Apartments</div>`)[0];
+                popup_4fe657b166cd5eeaf9e602d40ee4e36d.setContent(html_8cfc3497c3568e18ca4f7ada61ff7768);
+            
+        
+
+        marker_269e21a83db577b92e4161fa669af4da.bindPopup(popup_4fe657b166cd5eeaf9e602d40ee4e36d)
+        ;
+
+        
+    
+    
+            var marker_bf9174ea2057d212f0bcc838b69d454b = L.marker(
+                [12.9608977, 77.6043256],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_fef3646dbc630aa1814d4b695a53242b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bf9174ea2057d212f0bcc838b69d454b.setIcon(icon_fef3646dbc630aa1814d4b695a53242b);
+        
+    
+        var popup_b3a2bacb632af126b993c9ad69e3b85b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36fa6d3476eb308604191592e6431990 = $(`<div id="html_36fa6d3476eb308604191592e6431990" style="width: 100.0%; height: 100.0%;">Panchavati Apartments</div>`)[0];
+                popup_b3a2bacb632af126b993c9ad69e3b85b.setContent(html_36fa6d3476eb308604191592e6431990);
+            
+        
+
+        marker_bf9174ea2057d212f0bcc838b69d454b.bindPopup(popup_b3a2bacb632af126b993c9ad69e3b85b)
+        ;
+
+        
+    
+    
+            var marker_892ed1798eccafd4b3236eab3eac6879 = L.marker(
+                [12.9806464, 77.6163383],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_918e303153d662f622e02ffd1d221617 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_892ed1798eccafd4b3236eab3eac6879.setIcon(icon_918e303153d662f622e02ffd1d221617);
+        
+    
+        var popup_fdd61a5f559be7a870c739fd73326483 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_233a05521c8e63b4ea677eb3c4121436 = $(`<div id="html_233a05521c8e63b4ea677eb3c4121436" style="width: 100.0%; height: 100.0%;">Gangothri Apartments</div>`)[0];
+                popup_fdd61a5f559be7a870c739fd73326483.setContent(html_233a05521c8e63b4ea677eb3c4121436);
+            
+        
+
+        marker_892ed1798eccafd4b3236eab3eac6879.bindPopup(popup_fdd61a5f559be7a870c739fd73326483)
+        ;
+
+        
+    
+    
+            var marker_204c4c2d1df605529a26dad68a036116 = L.marker(
+                [12.960823099999999, 77.5922104],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_443c2140fc9c92ce930879ec06f89fc3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_204c4c2d1df605529a26dad68a036116.setIcon(icon_443c2140fc9c92ce930879ec06f89fc3);
+        
+    
+        var popup_469d5ac81d9b06caf431941597561583 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fc4ad14de37d168bb03b23a6e9d3cbd = $(`<div id="html_0fc4ad14de37d168bb03b23a6e9d3cbd" style="width: 100.0%; height: 100.0%;">Ronak Apartments</div>`)[0];
+                popup_469d5ac81d9b06caf431941597561583.setContent(html_0fc4ad14de37d168bb03b23a6e9d3cbd);
+            
+        
+
+        marker_204c4c2d1df605529a26dad68a036116.bindPopup(popup_469d5ac81d9b06caf431941597561583)
+        ;
+
+        
+    
+    
+            var marker_ea4095929e581c4f749f26e837368a33 = L.marker(
+                [12.9641369, 77.5970459],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_e9d8164388a5d834ca97034e22522ee2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ea4095929e581c4f749f26e837368a33.setIcon(icon_e9d8164388a5d834ca97034e22522ee2);
+        
+    
+        var popup_d37582e6b8af51056bd9ff43459cccb1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2c30e71d828dba1bc8e26bc7ed86930 = $(`<div id="html_b2c30e71d828dba1bc8e26bc7ed86930" style="width: 100.0%; height: 100.0%;">Sadashiva Apartments</div>`)[0];
+                popup_d37582e6b8af51056bd9ff43459cccb1.setContent(html_b2c30e71d828dba1bc8e26bc7ed86930);
+            
+        
+
+        marker_ea4095929e581c4f749f26e837368a33.bindPopup(popup_d37582e6b8af51056bd9ff43459cccb1)
+        ;
+
+        
+    
+    
+            var marker_89967b2b49ae32a5ffa4279e58f770e4 = L.marker(
+                [12.984647599999999, 77.5865738],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_e125d576cf5ba00b70345bc558cf5d2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_89967b2b49ae32a5ffa4279e58f770e4.setIcon(icon_e125d576cf5ba00b70345bc558cf5d2e);
+        
+    
+        var popup_00ccdf2780ddf4967d2340c353399174 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ded1530f9af33a791124933fd5f55f80 = $(`<div id="html_ded1530f9af33a791124933fd5f55f80" style="width: 100.0%; height: 100.0%;">Parijat Apartments</div>`)[0];
+                popup_00ccdf2780ddf4967d2340c353399174.setContent(html_ded1530f9af33a791124933fd5f55f80);
+            
+        
+
+        marker_89967b2b49ae32a5ffa4279e58f770e4.bindPopup(popup_00ccdf2780ddf4967d2340c353399174)
+        ;
+
+        
+    
+    
+            var marker_187ba9f130e3b0be5eeca74238fa0667 = L.marker(
+                [12.970410099999999, 77.596278],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_081e011091ba7580157837a2856c6cc3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_187ba9f130e3b0be5eeca74238fa0667.setIcon(icon_081e011091ba7580157837a2856c6cc3);
+        
+    
+        var popup_8d8a91543c79a21b82d730da9abdd55b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_096bc06d419f2a20c5f87d2bdad7ab3e = $(`<div id="html_096bc06d419f2a20c5f87d2bdad7ab3e" style="width: 100.0%; height: 100.0%;">Keshvel Apartment</div>`)[0];
+                popup_8d8a91543c79a21b82d730da9abdd55b.setContent(html_096bc06d419f2a20c5f87d2bdad7ab3e);
+            
+        
+
+        marker_187ba9f130e3b0be5eeca74238fa0667.bindPopup(popup_8d8a91543c79a21b82d730da9abdd55b)
+        ;
+
+        
+    
+    
+            var marker_46a611e43583ec4fd2b06fc8aabe17de = L.marker(
+                [12.9608755, 77.6018443],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_0dfd4d3654c654bbc58d9d1c6ffae368 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_46a611e43583ec4fd2b06fc8aabe17de.setIcon(icon_0dfd4d3654c654bbc58d9d1c6ffae368);
+        
+    
+        var popup_c12ba4fb6bbb3447c25145610a268003 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8df6312d45b439b0b261afa5ee3ae916 = $(`<div id="html_8df6312d45b439b0b261afa5ee3ae916" style="width: 100.0%; height: 100.0%;">Sukhi Apartments</div>`)[0];
+                popup_c12ba4fb6bbb3447c25145610a268003.setContent(html_8df6312d45b439b0b261afa5ee3ae916);
+            
+        
+
+        marker_46a611e43583ec4fd2b06fc8aabe17de.bindPopup(popup_c12ba4fb6bbb3447c25145610a268003)
+        ;
+
+        
+    
+    
+            var marker_21def04637bed0c38b19d308433ecfd7 = L.marker(
+                [12.9859175, 77.5997343],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_638367cd79d4558105057f19a97566b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_21def04637bed0c38b19d308433ecfd7.setIcon(icon_638367cd79d4558105057f19a97566b6);
+        
+    
+        var popup_64ee9ab2e4132c3d807167d3e5b36f88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c57928c931283b1fb4fd925c92052104 = $(`<div id="html_c57928c931283b1fb4fd925c92052104" style="width: 100.0%; height: 100.0%;">V.M. SUNSHINE APARTMENTS</div>`)[0];
+                popup_64ee9ab2e4132c3d807167d3e5b36f88.setContent(html_c57928c931283b1fb4fd925c92052104);
+            
+        
+
+        marker_21def04637bed0c38b19d308433ecfd7.bindPopup(popup_64ee9ab2e4132c3d807167d3e5b36f88)
+        ;
+
+        
+    
+    
+            var marker_f87265d9139af83a228ff646c12411cd = L.marker(
+                [12.9826082, 77.5997964],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_a25fc667470c15a99334b38dffe9753c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f87265d9139af83a228ff646c12411cd.setIcon(icon_a25fc667470c15a99334b38dffe9753c);
+        
+    
+        var popup_3dcf124dda31c5c461e86578bd29df1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc11bbfb711668bc5c653e944c60fa51 = $(`<div id="html_dc11bbfb711668bc5c653e944c60fa51" style="width: 100.0%; height: 100.0%;">Meenaxi Apartment</div>`)[0];
+                popup_3dcf124dda31c5c461e86578bd29df1a.setContent(html_dc11bbfb711668bc5c653e944c60fa51);
+            
+        
+
+        marker_f87265d9139af83a228ff646c12411cd.bindPopup(popup_3dcf124dda31c5c461e86578bd29df1a)
+        ;
+
+        
+    
+    
+            var marker_12c9bc9cfd0d084105852c37604965c4 = L.marker(
+                [12.9865748, 77.59206859999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_d0c43714024fa9c3c9e35d3104c4ebf2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_12c9bc9cfd0d084105852c37604965c4.setIcon(icon_d0c43714024fa9c3c9e35d3104c4ebf2);
+        
+    
+        var popup_63b8bcc31d75ca2227fc348c046d6d52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bda73b1abdf988e7ec44cb34c23e66a0 = $(`<div id="html_bda73b1abdf988e7ec44cb34c23e66a0" style="width: 100.0%; height: 100.0%;">Krishna Apartment</div>`)[0];
+                popup_63b8bcc31d75ca2227fc348c046d6d52.setContent(html_bda73b1abdf988e7ec44cb34c23e66a0);
+            
+        
+
+        marker_12c9bc9cfd0d084105852c37604965c4.bindPopup(popup_63b8bcc31d75ca2227fc348c046d6d52)
+        ;
+
+        
+    
+    
+            var marker_10125c9b4d9fbcb2db7cbf1f35903ca7 = L.marker(
+                [12.985092999999999, 77.6167445],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_31c8c0d9e277ceb0c9560d59fe63e798 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_10125c9b4d9fbcb2db7cbf1f35903ca7.setIcon(icon_31c8c0d9e277ceb0c9560d59fe63e798);
+        
+    
+        var popup_ac57d24b33960c2c8483d2d8c66f3f3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_758653c5cf4b1b2e2484af752b4dd468 = $(`<div id="html_758653c5cf4b1b2e2484af752b4dd468" style="width: 100.0%; height: 100.0%;">Grasmere Apartments</div>`)[0];
+                popup_ac57d24b33960c2c8483d2d8c66f3f3a.setContent(html_758653c5cf4b1b2e2484af752b4dd468);
+            
+        
+
+        marker_10125c9b4d9fbcb2db7cbf1f35903ca7.bindPopup(popup_ac57d24b33960c2c8483d2d8c66f3f3a)
+        ;
+
+        
+    
+    
+            var marker_fa06b5b881ec968b0d40089c662e687f = L.marker(
+                [12.961195799999999, 77.6027381],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_9e1c5d7cbcd699b4c2b385d3a592abf1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fa06b5b881ec968b0d40089c662e687f.setIcon(icon_9e1c5d7cbcd699b4c2b385d3a592abf1);
+        
+    
+        var popup_036717289bd53607dd61c140ee50464c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4ca86b4ba8a4d988b532df719e30e6f = $(`<div id="html_e4ca86b4ba8a4d988b532df719e30e6f" style="width: 100.0%; height: 100.0%;">Rustumji Apartments</div>`)[0];
+                popup_036717289bd53607dd61c140ee50464c.setContent(html_e4ca86b4ba8a4d988b532df719e30e6f);
+            
+        
+
+        marker_fa06b5b881ec968b0d40089c662e687f.bindPopup(popup_036717289bd53607dd61c140ee50464c)
+        ;
+
+        
+    
+    
+            var marker_26c8ca5eb6335931d4e9de935a1ae2e4 = L.marker(
+                [12.9438683, 77.5958371],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_c14e7412453b8dd0b74dd43f86201bc7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_26c8ca5eb6335931d4e9de935a1ae2e4.setIcon(icon_c14e7412453b8dd0b74dd43f86201bc7);
+        
+    
+        var popup_5de891d46671d19ca60c21e77d3f70c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a91bbc689773c5d095019d10e23f9583 = $(`<div id="html_a91bbc689773c5d095019d10e23f9583" style="width: 100.0%; height: 100.0%;">Wilson Manor Apartments</div>`)[0];
+                popup_5de891d46671d19ca60c21e77d3f70c2.setContent(html_a91bbc689773c5d095019d10e23f9583);
+            
+        
+
+        marker_26c8ca5eb6335931d4e9de935a1ae2e4.bindPopup(popup_5de891d46671d19ca60c21e77d3f70c2)
+        ;
+
+        
+    
+    
+            var marker_2807e6142a85cf95922168287eba2316 = L.marker(
+                [12.941082399999999, 77.5721142],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_a1a46a7bd56b232d9ccc07aadc81e11f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2807e6142a85cf95922168287eba2316.setIcon(icon_a1a46a7bd56b232d9ccc07aadc81e11f);
+        
+    
+        var popup_d7523b72ebd2e9b453bc6e6b49eb1230 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_738f37220c792757db6a980bbe671322 = $(`<div id="html_738f37220c792757db6a980bbe671322" style="width: 100.0%; height: 100.0%;">Krishna Legacy Apartments</div>`)[0];
+                popup_d7523b72ebd2e9b453bc6e6b49eb1230.setContent(html_738f37220c792757db6a980bbe671322);
+            
+        
+
+        marker_2807e6142a85cf95922168287eba2316.bindPopup(popup_d7523b72ebd2e9b453bc6e6b49eb1230)
+        ;
+
+        
+    
+    
+            var marker_a3837cbbc4afe7d0324de22b1a36179d = L.marker(
+                [12.9777968, 77.61868609999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_5fe2650c650bd0c23658f086d4427236 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a3837cbbc4afe7d0324de22b1a36179d.setIcon(icon_5fe2650c650bd0c23658f086d4427236);
+        
+    
+        var popup_7b48d86d8d29019133cc7cae46546096 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5107e0b169f235407e143d703128ef04 = $(`<div id="html_5107e0b169f235407e143d703128ef04" style="width: 100.0%; height: 100.0%;">Stafford Apartments</div>`)[0];
+                popup_7b48d86d8d29019133cc7cae46546096.setContent(html_5107e0b169f235407e143d703128ef04);
+            
+        
+
+        marker_a3837cbbc4afe7d0324de22b1a36179d.bindPopup(popup_7b48d86d8d29019133cc7cae46546096)
+        ;
+
+        
+    
+    
+            var marker_081f203a0630c9240e88008698c44a42 = L.marker(
+                [12.960525599999999, 77.59558059999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_61146ee9b5f9f0bbf167513541ba85d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_081f203a0630c9240e88008698c44a42.setIcon(icon_61146ee9b5f9f0bbf167513541ba85d7);
+        
+    
+        var popup_d1d81efcea9d2de6a36458b170976cd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29a031a295b59f50678a4b4002e442b6 = $(`<div id="html_29a031a295b59f50678a4b4002e442b6" style="width: 100.0%; height: 100.0%;">Symbiosis Adithya Apartments</div>`)[0];
+                popup_d1d81efcea9d2de6a36458b170976cd8.setContent(html_29a031a295b59f50678a4b4002e442b6);
+            
+        
+
+        marker_081f203a0630c9240e88008698c44a42.bindPopup(popup_d1d81efcea9d2de6a36458b170976cd8)
+        ;
+
+        
+    
+    
+            var marker_149e1168c02673e40f60c8b79dd1259a = L.marker(
+                [12.994986899999999, 77.5940931],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_050fcc8a2e8a27ad1653b7b7ff74aafd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_149e1168c02673e40f60c8b79dd1259a.setIcon(icon_050fcc8a2e8a27ad1653b7b7ff74aafd);
+        
+    
+        var popup_0313c664dda435d83a1a3b3a18d43045 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c3ffd077298df9b9aca1e416a05c074 = $(`<div id="html_5c3ffd077298df9b9aca1e416a05c074" style="width: 100.0%; height: 100.0%;">Silver Palace Apartments</div>`)[0];
+                popup_0313c664dda435d83a1a3b3a18d43045.setContent(html_5c3ffd077298df9b9aca1e416a05c074);
+            
+        
+
+        marker_149e1168c02673e40f60c8b79dd1259a.bindPopup(popup_0313c664dda435d83a1a3b3a18d43045)
+        ;
+
+        
+    
+    
+            var marker_b14df7da2cefef3c653f9ee4e17c39c5 = L.marker(
+                [12.977448299999999, 77.6185034],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_c607843958488c1c4ee6585ba6c26a0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b14df7da2cefef3c653f9ee4e17c39c5.setIcon(icon_c607843958488c1c4ee6585ba6c26a0e);
+        
+    
+        var popup_bad7c618222a2890bd765222d50e382f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd08c243a57f6a5cccc8aeea9eff4238 = $(`<div id="html_bd08c243a57f6a5cccc8aeea9eff4238" style="width: 100.0%; height: 100.0%;">Belvedere Apartments</div>`)[0];
+                popup_bad7c618222a2890bd765222d50e382f.setContent(html_bd08c243a57f6a5cccc8aeea9eff4238);
+            
+        
+
+        marker_b14df7da2cefef3c653f9ee4e17c39c5.bindPopup(popup_bad7c618222a2890bd765222d50e382f)
+        ;
+
+        
+    
+    
+            var marker_a48720376c60eb941acb4153c0b460b6 = L.marker(
+                [12.9864499, 77.5974785],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_3eab1113c5e790546737504d4b28e204 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a48720376c60eb941acb4153c0b460b6.setIcon(icon_3eab1113c5e790546737504d4b28e204);
+        
+    
+        var popup_3ce228c9445afd121e8045092a4862c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed6f5524e3a1c4d9d7a53c16738160bf = $(`<div id="html_ed6f5524e3a1c4d9d7a53c16738160bf" style="width: 100.0%; height: 100.0%;">Manipal Vistas Apartment</div>`)[0];
+                popup_3ce228c9445afd121e8045092a4862c1.setContent(html_ed6f5524e3a1c4d9d7a53c16738160bf);
+            
+        
+
+        marker_a48720376c60eb941acb4153c0b460b6.bindPopup(popup_3ce228c9445afd121e8045092a4862c1)
+        ;
+
+        
+    
+    
+            var marker_bc46f18cadbb69e68fe2b25aff62bd39 = L.marker(
+                [12.9383132, 77.6096914],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_0a185b9d0ca05f4ffae225fe33d6d01d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_bc46f18cadbb69e68fe2b25aff62bd39.setIcon(icon_0a185b9d0ca05f4ffae225fe33d6d01d);
+        
+    
+        var popup_94af2c204dba88d71cfeea08cbdc1851 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a536c9b202817ffef6c21c5334b42258 = $(`<div id="html_a536c9b202817ffef6c21c5334b42258" style="width: 100.0%; height: 100.0%;">Madhuban Apartments</div>`)[0];
+                popup_94af2c204dba88d71cfeea08cbdc1851.setContent(html_a536c9b202817ffef6c21c5334b42258);
+            
+        
+
+        marker_bc46f18cadbb69e68fe2b25aff62bd39.bindPopup(popup_94af2c204dba88d71cfeea08cbdc1851)
+        ;
+
+        
+    
+    
+            var marker_eb8fd82053cde21233893e9756523a3a = L.marker(
+                [12.9565711, 77.60467229999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_369194955f43ca3d7df87b3903e943bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_eb8fd82053cde21233893e9756523a3a.setIcon(icon_369194955f43ca3d7df87b3903e943bb);
+        
+    
+        var popup_fb904b6321306137e9fdc5422e832e7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f530f194d41e539998755ec9f0431be3 = $(`<div id="html_f530f194d41e539998755ec9f0431be3" style="width: 100.0%; height: 100.0%;">Park Land Apartments</div>`)[0];
+                popup_fb904b6321306137e9fdc5422e832e7a.setContent(html_f530f194d41e539998755ec9f0431be3);
+            
+        
+
+        marker_eb8fd82053cde21233893e9756523a3a.bindPopup(popup_fb904b6321306137e9fdc5422e832e7a)
+        ;
+
+        
+    
+    
+            var marker_ed5caf0ad81a7970ba38e9040a0d7ec9 = L.marker(
+                [12.9579088, 77.60584039999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_8cef54a260ddb7979925f91225d074ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ed5caf0ad81a7970ba38e9040a0d7ec9.setIcon(icon_8cef54a260ddb7979925f91225d074ac);
+        
+    
+        var popup_7a4616338863e260dae371c0d796527d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_abd2a3d7b2a999341e1933798ec6d793 = $(`<div id="html_abd2a3d7b2a999341e1933798ec6d793" style="width: 100.0%; height: 100.0%;">Silver Manor Apartments</div>`)[0];
+                popup_7a4616338863e260dae371c0d796527d.setContent(html_abd2a3d7b2a999341e1933798ec6d793);
+            
+        
+
+        marker_ed5caf0ad81a7970ba38e9040a0d7ec9.bindPopup(popup_7a4616338863e260dae371c0d796527d)
+        ;
+
+        
+    
+    
+            var marker_ce290eb3145ed93e5b1c06a996c45838 = L.marker(
+                [12.9653233, 77.6119686],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_7142ebe0c6a953cf437021a413902404 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ce290eb3145ed93e5b1c06a996c45838.setIcon(icon_7142ebe0c6a953cf437021a413902404);
+        
+    
+        var popup_ecdea377afe7b61be1a5d11205b97079 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4dc10374745e475e7734884701168b03 = $(`<div id="html_4dc10374745e475e7734884701168b03" style="width: 100.0%; height: 100.0%;">Aura apartments</div>`)[0];
+                popup_ecdea377afe7b61be1a5d11205b97079.setContent(html_4dc10374745e475e7734884701168b03);
+            
+        
+
+        marker_ce290eb3145ed93e5b1c06a996c45838.bindPopup(popup_ecdea377afe7b61be1a5d11205b97079)
+        ;
+
+        
+    
+    
+            var marker_06982ea17219189344bab8eed9875806 = L.marker(
+                [12.9650897, 77.61460009999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_1d42618a7c627abf32a3d96a33a4c366 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_06982ea17219189344bab8eed9875806.setIcon(icon_1d42618a7c627abf32a3d96a33a4c366);
+        
+    
+        var popup_0f25110fc14f424fe28af197f83909e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43841ac272e132620d90d97b7512c625 = $(`<div id="html_43841ac272e132620d90d97b7512c625" style="width: 100.0%; height: 100.0%;">Ligoury Court Apartment</div>`)[0];
+                popup_0f25110fc14f424fe28af197f83909e8.setContent(html_43841ac272e132620d90d97b7512c625);
+            
+        
+
+        marker_06982ea17219189344bab8eed9875806.bindPopup(popup_0f25110fc14f424fe28af197f83909e8)
+        ;
+
+        
+    
+    
+            var marker_332903cc55c8fce273e92479b0e4019d = L.marker(
+                [12.9720271, 77.6266028],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_2d187745c253586d11d22dd4484d32b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_332903cc55c8fce273e92479b0e4019d.setIcon(icon_2d187745c253586d11d22dd4484d32b5);
+        
+    
+        var popup_f16ba779f6b121043b3955e0e652b154 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb48f246cd2ee5f91dd9b0dc2d717a3d = $(`<div id="html_eb48f246cd2ee5f91dd9b0dc2d717a3d" style="width: 100.0%; height: 100.0%;">Ranka Court Apartments</div>`)[0];
+                popup_f16ba779f6b121043b3955e0e652b154.setContent(html_eb48f246cd2ee5f91dd9b0dc2d717a3d);
+            
+        
+
+        marker_332903cc55c8fce273e92479b0e4019d.bindPopup(popup_f16ba779f6b121043b3955e0e652b154)
+        ;
+
+        
+    
+    
+            var marker_de259cd99ded490b7cc0014736340a7f = L.marker(
+                [12.9795126, 77.61776239999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_12d123eb77593828793ce954fbcbbf70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_de259cd99ded490b7cc0014736340a7f.setIcon(icon_12d123eb77593828793ce954fbcbbf70);
+        
+    
+        var popup_e75f64824609491cbe92cb3f1ebf177a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea559dbda06dc5d583f4a62c8c5df38b = $(`<div id="html_ea559dbda06dc5d583f4a62c8c5df38b" style="width: 100.0%; height: 100.0%;">BedChambers Serviced Apartments, MG Road</div>`)[0];
+                popup_e75f64824609491cbe92cb3f1ebf177a.setContent(html_ea559dbda06dc5d583f4a62c8c5df38b);
+            
+        
+
+        marker_de259cd99ded490b7cc0014736340a7f.bindPopup(popup_e75f64824609491cbe92cb3f1ebf177a)
+        ;
+
+        
+    
+    
+            var marker_8840c6c90f4c4ff140502d22441b0c52 = L.marker(
+                [12.9639426, 77.60460499999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_83366657e7b77e2dae412498a8661b78 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8840c6c90f4c4ff140502d22441b0c52.setIcon(icon_83366657e7b77e2dae412498a8661b78);
+        
+    
+        var popup_cd092a1789c0468745c93077f6421168 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b32d86784b0e4be0c8958f87e32a5fc = $(`<div id="html_0b32d86784b0e4be0c8958f87e32a5fc" style="width: 100.0%; height: 100.0%;">Royalton Apartment</div>`)[0];
+                popup_cd092a1789c0468745c93077f6421168.setContent(html_0b32d86784b0e4be0c8958f87e32a5fc);
+            
+        
+
+        marker_8840c6c90f4c4ff140502d22441b0c52.bindPopup(popup_cd092a1789c0468745c93077f6421168)
+        ;
+
+        
+    
+    
+            var marker_97f22bbf0d217c76020fc42015af12a8 = L.marker(
+                [12.958540999999999, 77.60180369999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_40437c1ee9640ac07d87c9612be13c2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_97f22bbf0d217c76020fc42015af12a8.setIcon(icon_40437c1ee9640ac07d87c9612be13c2a);
+        
+    
+        var popup_a8b19be54d92468ba23f9e20a69f79ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_120c682bd1301c1dfa57e78db1083150 = $(`<div id="html_120c682bd1301c1dfa57e78db1083150" style="width: 100.0%; height: 100.0%;">Sharief Pearl Apartment</div>`)[0];
+                popup_a8b19be54d92468ba23f9e20a69f79ce.setContent(html_120c682bd1301c1dfa57e78db1083150);
+            
+        
+
+        marker_97f22bbf0d217c76020fc42015af12a8.bindPopup(popup_a8b19be54d92468ba23f9e20a69f79ce)
+        ;
+
+        
+    
+    
+            var marker_1a2013149b7687600c4284e39e1fdd94 = L.marker(
+                [12.945514999999999, 77.57929],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_6004231240d840eab64c5f0f4dfe56dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1a2013149b7687600c4284e39e1fdd94.setIcon(icon_6004231240d840eab64c5f0f4dfe56dd);
+        
+    
+        var popup_f4ac7c7044bbc8bef5884b2d5940052a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7a3ad0f810d197681ab0b1f2767816d = $(`<div id="html_a7a3ad0f810d197681ab0b1f2767816d" style="width: 100.0%; height: 100.0%;">Park west apartments</div>`)[0];
+                popup_f4ac7c7044bbc8bef5884b2d5940052a.setContent(html_a7a3ad0f810d197681ab0b1f2767816d);
+            
+        
+
+        marker_1a2013149b7687600c4284e39e1fdd94.bindPopup(popup_f4ac7c7044bbc8bef5884b2d5940052a)
+        ;
+
+        
+    
+    
+            var marker_d212e77d99ba9fdaee202f3976bdb83a = L.marker(
+                [12.945155699999999, 77.5747361],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_1e7e61943a1e59f5f24015207dde4086 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d212e77d99ba9fdaee202f3976bdb83a.setIcon(icon_1e7e61943a1e59f5f24015207dde4086);
+        
+    
+        var popup_365b61df1d0de52a9d1b843c9d2899c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64fb252e1eecee97e0b0ad2f42f3ffd1 = $(`<div id="html_64fb252e1eecee97e0b0ad2f42f3ffd1" style="width: 100.0%; height: 100.0%;">LOTUS APARTMENTS</div>`)[0];
+                popup_365b61df1d0de52a9d1b843c9d2899c2.setContent(html_64fb252e1eecee97e0b0ad2f42f3ffd1);
+            
+        
+
+        marker_d212e77d99ba9fdaee202f3976bdb83a.bindPopup(popup_365b61df1d0de52a9d1b843c9d2899c2)
+        ;
+
+        
+    
+    
+            var marker_08d8e3d72dcef4a5bec24fc762cd7755 = L.marker(
+                [12.972163499999999, 77.6285686],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_cf9bb6ad905dbc7302938a8e87243c0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_08d8e3d72dcef4a5bec24fc762cd7755.setIcon(icon_cf9bb6ad905dbc7302938a8e87243c0a);
+        
+    
+        var popup_2f7ba157a2d2f132e91b55ce14859c60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59d3da1613880b5fb9c4e34d052e0d31 = $(`<div id="html_59d3da1613880b5fb9c4e34d052e0d31" style="width: 100.0%; height: 100.0%;">Tranquil Serviced Apartments- MG Road</div>`)[0];
+                popup_2f7ba157a2d2f132e91b55ce14859c60.setContent(html_59d3da1613880b5fb9c4e34d052e0d31);
+            
+        
+
+        marker_08d8e3d72dcef4a5bec24fc762cd7755.bindPopup(popup_2f7ba157a2d2f132e91b55ce14859c60)
+        ;
+
+        
+    
+    
+            var marker_7f7817ee14b51f7a67dfeb979eb45fa8 = L.marker(
+                [12.992950599999999, 77.5796161],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_a475fd902f0d2328ba3f256c7d710212 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7f7817ee14b51f7a67dfeb979eb45fa8.setIcon(icon_a475fd902f0d2328ba3f256c7d710212);
+        
+    
+        var popup_18dc4a5eaab263ad8d5b8a9161715a2d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e211328b0032599d00429146f928c4f4 = $(`<div id="html_e211328b0032599d00429146f928c4f4" style="width: 100.0%; height: 100.0%;">Sankeshwar Apartment</div>`)[0];
+                popup_18dc4a5eaab263ad8d5b8a9161715a2d.setContent(html_e211328b0032599d00429146f928c4f4);
+            
+        
+
+        marker_7f7817ee14b51f7a67dfeb979eb45fa8.bindPopup(popup_18dc4a5eaab263ad8d5b8a9161715a2d)
+        ;
+
+        
+    
+    
+            var marker_18cd593942dcd1ddda66a177527f5923 = L.marker(
+                [12.9846234, 77.57712719999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_d7f9dbfeaea7b565ab40d6111cfbba49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_18cd593942dcd1ddda66a177527f5923.setIcon(icon_d7f9dbfeaea7b565ab40d6111cfbba49);
+        
+    
+        var popup_af094dcf7d0e30fc369f6798d1e8c6ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96469a82e612e95c98cca61a9975e093 = $(`<div id="html_96469a82e612e95c98cca61a9975e093" style="width: 100.0%; height: 100.0%;">Arihant Krupa Apartments</div>`)[0];
+                popup_af094dcf7d0e30fc369f6798d1e8c6ea.setContent(html_96469a82e612e95c98cca61a9975e093);
+            
+        
+
+        marker_18cd593942dcd1ddda66a177527f5923.bindPopup(popup_af094dcf7d0e30fc369f6798d1e8c6ea)
+        ;
+
+        
+    
+    
+            var marker_049e7cdf5b90c120f3d272886e5d71f5 = L.marker(
+                [13.0031196, 77.59709749999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_b62bc54650f08cb42af28bf342d9ce7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_049e7cdf5b90c120f3d272886e5d71f5.setIcon(icon_b62bc54650f08cb42af28bf342d9ce7c);
+        
+    
+        var popup_25ba8bf2fe97d09b9da2c49839a3a6b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b168bae3b92f0b281f31c615b5f0a9a6 = $(`<div id="html_b168bae3b92f0b281f31c615b5f0a9a6" style="width: 100.0%; height: 100.0%;">Neeladri Mahal Apartment ABC block</div>`)[0];
+                popup_25ba8bf2fe97d09b9da2c49839a3a6b6.setContent(html_b168bae3b92f0b281f31c615b5f0a9a6);
+            
+        
+
+        marker_049e7cdf5b90c120f3d272886e5d71f5.bindPopup(popup_25ba8bf2fe97d09b9da2c49839a3a6b6)
+        ;
+
+        
+    
+    
+            var marker_ca50b031b5cb963cab5a5e9861cd561c = L.marker(
+                [12.9608814, 77.5988982],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_5ae691b334f9b112c1d61b8ff16d0522 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ca50b031b5cb963cab5a5e9861cd561c.setIcon(icon_5ae691b334f9b112c1d61b8ff16d0522);
+        
+    
+        var popup_0ad3afc99abc7b7ea38294e7aca459e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fc5ff60b1d1db7d0195de46d8dcfa33 = $(`<div id="html_0fc5ff60b1d1db7d0195de46d8dcfa33" style="width: 100.0%; height: 100.0%;">MM Aadeshwar apartments</div>`)[0];
+                popup_0ad3afc99abc7b7ea38294e7aca459e5.setContent(html_0fc5ff60b1d1db7d0195de46d8dcfa33);
+            
+        
+
+        marker_ca50b031b5cb963cab5a5e9861cd561c.bindPopup(popup_0ad3afc99abc7b7ea38294e7aca459e5)
+        ;
+
+        
+    
+    
+            var marker_fe174e23f569eedd7f1bcdc7de9d62aa = L.marker(
+                [12.9706379, 77.6143554],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_7bf01db6cd5212afd9d8581c7c36b345 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fe174e23f569eedd7f1bcdc7de9d62aa.setIcon(icon_7bf01db6cd5212afd9d8581c7c36b345);
+        
+    
+        var popup_c3d796e362390dd1df0fd83eaa70faac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a311a09ba30cef4455adcb8d19e855fd = $(`<div id="html_a311a09ba30cef4455adcb8d19e855fd" style="width: 100.0%; height: 100.0%;">Maithri Apartment</div>`)[0];
+                popup_c3d796e362390dd1df0fd83eaa70faac.setContent(html_a311a09ba30cef4455adcb8d19e855fd);
+            
+        
+
+        marker_fe174e23f569eedd7f1bcdc7de9d62aa.bindPopup(popup_c3d796e362390dd1df0fd83eaa70faac)
+        ;
+
+        
+    
+    
+            var marker_427768fd3c4a5305793f862db8c37078 = L.marker(
+                [12.9899317, 77.6193047],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_691b711abf3569db7643780c1116c87c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_427768fd3c4a5305793f862db8c37078.setIcon(icon_691b711abf3569db7643780c1116c87c);
+        
+    
+        var popup_bd649dcdac23d8c92e905f861db14bb4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c3e1d71ad1484f090aba1cc5db59a99 = $(`<div id="html_7c3e1d71ad1484f090aba1cc5db59a99" style="width: 100.0%; height: 100.0%;">Chartered Gruha Apartments</div>`)[0];
+                popup_bd649dcdac23d8c92e905f861db14bb4.setContent(html_7c3e1d71ad1484f090aba1cc5db59a99);
+            
+        
+
+        marker_427768fd3c4a5305793f862db8c37078.bindPopup(popup_bd649dcdac23d8c92e905f861db14bb4)
+        ;
+
+        
+    
+    
+            var marker_9deb41cce1d3589a9c0b6318fa13a58a = L.marker(
+                [12.9453272, 77.5897346],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_01dc1c95eb6e77b83f5da4c0e8c1c6df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9deb41cce1d3589a9c0b6318fa13a58a.setIcon(icon_01dc1c95eb6e77b83f5da4c0e8c1c6df);
+        
+    
+        var popup_5cad9026becc4b222dd915020dd2087b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e700dbfc43489b7ec83373cd78d49cea = $(`<div id="html_e700dbfc43489b7ec83373cd78d49cea" style="width: 100.0%; height: 100.0%;">Elegance Lalbagh View Apartment</div>`)[0];
+                popup_5cad9026becc4b222dd915020dd2087b.setContent(html_e700dbfc43489b7ec83373cd78d49cea);
+            
+        
+
+        marker_9deb41cce1d3589a9c0b6318fa13a58a.bindPopup(popup_5cad9026becc4b222dd915020dd2087b)
+        ;
+
+        
+    
+    
+            var marker_6cf5853f70087d25ae4e682ce28f4949 = L.marker(
+                [12.9624001, 77.6027521],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_3429f2f0e53d49cce6b8fe515313eb7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6cf5853f70087d25ae4e682ce28f4949.setIcon(icon_3429f2f0e53d49cce6b8fe515313eb7c);
+        
+    
+        var popup_c081bf2484501b9c6c5ae2ac4be6db29 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93745634ea97376c7c03c71fd8a04907 = $(`<div id="html_93745634ea97376c7c03c71fd8a04907" style="width: 100.0%; height: 100.0%;">Casablanca Apartment</div>`)[0];
+                popup_c081bf2484501b9c6c5ae2ac4be6db29.setContent(html_93745634ea97376c7c03c71fd8a04907);
+            
+        
+
+        marker_6cf5853f70087d25ae4e682ce28f4949.bindPopup(popup_c081bf2484501b9c6c5ae2ac4be6db29)
+        ;
+
+        
+    
+    
+            var marker_469ba1bdcf9066b40016b80479716500 = L.marker(
+                [12.996746799999999, 77.60862449999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_9e914cb1e641645f4ad027752258d79e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_469ba1bdcf9066b40016b80479716500.setIcon(icon_9e914cb1e641645f4ad027752258d79e);
+        
+    
+        var popup_7722d4ed09ed175b7338662611501e06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c98841629dd574c119e0ab53daa5014a = $(`<div id="html_c98841629dd574c119e0ab53daa5014a" style="width: 100.0%; height: 100.0%;">Elegant Silver Oak Apartments</div>`)[0];
+                popup_7722d4ed09ed175b7338662611501e06.setContent(html_c98841629dd574c119e0ab53daa5014a);
+            
+        
+
+        marker_469ba1bdcf9066b40016b80479716500.bindPopup(popup_7722d4ed09ed175b7338662611501e06)
+        ;
+
+        
+    
+    
+            var marker_58307ac934f0499843e9bdf45e1aacba = L.marker(
+                [13.0029465, 77.59744599999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_7e617148b6c9cdc8d74c2f9c1e3d5bf7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_58307ac934f0499843e9bdf45e1aacba.setIcon(icon_7e617148b6c9cdc8d74c2f9c1e3d5bf7);
+        
+    
+        var popup_99e33d3e04b917bfc957ef2d43c0aeb6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36a640a4ba9c53557c47917af9f506c0 = $(`<div id="html_36a640a4ba9c53557c47917af9f506c0" style="width: 100.0%; height: 100.0%;">Neeladri Mahal Apartments II DEF Block</div>`)[0];
+                popup_99e33d3e04b917bfc957ef2d43c0aeb6.setContent(html_36a640a4ba9c53557c47917af9f506c0);
+            
+        
+
+        marker_58307ac934f0499843e9bdf45e1aacba.bindPopup(popup_99e33d3e04b917bfc957ef2d43c0aeb6)
+        ;
+
+        
+    
+    
+            var marker_ec3719d4ed16596af3fb8579bd8d0b61 = L.marker(
+                [12.958060399999999, 77.6051665],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_aa1ef3ec52080e7b0877441297e71b97 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ec3719d4ed16596af3fb8579bd8d0b61.setIcon(icon_aa1ef3ec52080e7b0877441297e71b97);
+        
+    
+        var popup_656b5dae2fb3ac1d423e38e3b575b55c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6eac27aa8e0ad65a79aa40ca45c9cf1 = $(`<div id="html_c6eac27aa8e0ad65a79aa40ca45c9cf1" style="width: 100.0%; height: 100.0%;">Uma Skanda Apartments</div>`)[0];
+                popup_656b5dae2fb3ac1d423e38e3b575b55c.setContent(html_c6eac27aa8e0ad65a79aa40ca45c9cf1);
+            
+        
+
+        marker_ec3719d4ed16596af3fb8579bd8d0b61.bindPopup(popup_656b5dae2fb3ac1d423e38e3b575b55c)
+        ;
+
+        
+    
+    
+            var marker_9e66e911e083ce1641b3bbb0045e1d4a = L.marker(
+                [13.000244799999999, 77.6009589],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_2a2175eb234defb32f825b6faa7ce8ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9e66e911e083ce1641b3bbb0045e1d4a.setIcon(icon_2a2175eb234defb32f825b6faa7ce8ac);
+        
+    
+        var popup_f5fb5d08092badd8be4e908cc107586f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6289374c35838f13c4b62b6b028cc83 = $(`<div id="html_c6289374c35838f13c4b62b6b028cc83" style="width: 100.0%; height: 100.0%;">Mythri Crescent Apartments</div>`)[0];
+                popup_f5fb5d08092badd8be4e908cc107586f.setContent(html_c6289374c35838f13c4b62b6b028cc83);
+            
+        
+
+        marker_9e66e911e083ce1641b3bbb0045e1d4a.bindPopup(popup_f5fb5d08092badd8be4e908cc107586f)
+        ;
+
+        
+    
+    
+            var marker_c3a52aea9ed3e09b79b5259d2c2f140c = L.marker(
+                [12.9827348, 77.61516739999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_526b96b460cdae35c5375e6757ddec1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c3a52aea9ed3e09b79b5259d2c2f140c.setIcon(icon_526b96b460cdae35c5375e6757ddec1b);
+        
+    
+        var popup_fdb17a34079706a5f783fd86db8a0e98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b92a8a8d152860907211895d1ffa093b = $(`<div id="html_b92a8a8d152860907211895d1ffa093b" style="width: 100.0%; height: 100.0%;">The Brighton Court Apartment</div>`)[0];
+                popup_fdb17a34079706a5f783fd86db8a0e98.setContent(html_b92a8a8d152860907211895d1ffa093b);
+            
+        
+
+        marker_c3a52aea9ed3e09b79b5259d2c2f140c.bindPopup(popup_fdb17a34079706a5f783fd86db8a0e98)
+        ;
+
+        
+    
+    
+            var marker_90e8ddf1a3efb4b2056c5a1bd42ef370 = L.marker(
+                [12.9995403, 77.62395839999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_224166323e8e480127ec277e96ec014a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_90e8ddf1a3efb4b2056c5a1bd42ef370.setIcon(icon_224166323e8e480127ec277e96ec014a);
+        
+    
+        var popup_400dde45d53dfd6f997b675ca3a5d829 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fac71e4f068c55c48be8418769b49279 = $(`<div id="html_fac71e4f068c55c48be8418769b49279" style="width: 100.0%; height: 100.0%;">Cosy Nook Apartments</div>`)[0];
+                popup_400dde45d53dfd6f997b675ca3a5d829.setContent(html_fac71e4f068c55c48be8418769b49279);
+            
+        
+
+        marker_90e8ddf1a3efb4b2056c5a1bd42ef370.bindPopup(popup_400dde45d53dfd6f997b675ca3a5d829)
+        ;
+
+        
+    
+    
+            var marker_ad12c6790de3da24d8f4b548aa532b68 = L.marker(
+                [12.971599, 77.59456999999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_ac061f1114f2ce872b0c24e806225b66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ad12c6790de3da24d8f4b548aa532b68.setIcon(icon_ac061f1114f2ce872b0c24e806225b66);
+        
+    
+        var popup_081b0092cfab46793f64279337b48b84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c24fd8cab97e8619dec9932c70c3aac = $(`<div id="html_7c24fd8cab97e8619dec9932c70c3aac" style="width: 100.0%; height: 100.0%;">Woodrose Serviced Apartments</div>`)[0];
+                popup_081b0092cfab46793f64279337b48b84.setContent(html_7c24fd8cab97e8619dec9932c70c3aac);
+            
+        
+
+        marker_ad12c6790de3da24d8f4b548aa532b68.bindPopup(popup_081b0092cfab46793f64279337b48b84)
+        ;
+
+        
+    
+    
+            var marker_7087acc5f79b98ce0b24cb9b6a0bcef4 = L.marker(
+                [12.993921, 77.5923359],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_fed2c50547fe987d78a291b5d003b8a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_7087acc5f79b98ce0b24cb9b6a0bcef4.setIcon(icon_fed2c50547fe987d78a291b5d003b8a7);
+        
+    
+        var popup_ab255aa038114e4fe6e7be3a7ae02954 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f5d14153d57a43fc87e71d6bd3b9046 = $(`<div id="html_1f5d14153d57a43fc87e71d6bd3b9046" style="width: 100.0%; height: 100.0%;">Zia Enclave Apartments</div>`)[0];
+                popup_ab255aa038114e4fe6e7be3a7ae02954.setContent(html_1f5d14153d57a43fc87e71d6bd3b9046);
+            
+        
+
+        marker_7087acc5f79b98ce0b24cb9b6a0bcef4.bindPopup(popup_ab255aa038114e4fe6e7be3a7ae02954)
+        ;
+
+        
+    
+    
+            var marker_594f19e2cd9c506bea68e254354e53b0 = L.marker(
+                [12.9516954, 77.5943894],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_546ee13595d344433383553c7e3fb477 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_594f19e2cd9c506bea68e254354e53b0.setIcon(icon_546ee13595d344433383553c7e3fb477);
+        
+    
+        var popup_86a919b05940b8d17e20a69350a6aca1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_296c057c9461ee3a47b61728cad9f217 = $(`<div id="html_296c057c9461ee3a47b61728cad9f217" style="width: 100.0%; height: 100.0%;">Jyotsna Apartments</div>`)[0];
+                popup_86a919b05940b8d17e20a69350a6aca1.setContent(html_296c057c9461ee3a47b61728cad9f217);
+            
+        
+
+        marker_594f19e2cd9c506bea68e254354e53b0.bindPopup(popup_86a919b05940b8d17e20a69350a6aca1)
+        ;
+
+        
+    
+    
+            var marker_9d583710b97156f17d2772ba20c52272 = L.marker(
+                [12.9706747, 77.62701539999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_bca30f4302ab269cec69c86371fcf8b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9d583710b97156f17d2772ba20c52272.setIcon(icon_bca30f4302ab269cec69c86371fcf8b0);
+        
+    
+        var popup_d0ade98d32a84cced2fb8e83afc243a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b772cf1106c09908b124cc4e471c2578 = $(`<div id="html_b772cf1106c09908b124cc4e471c2578" style="width: 100.0%; height: 100.0%;">Vishal Parkwood Apartment</div>`)[0];
+                popup_d0ade98d32a84cced2fb8e83afc243a0.setContent(html_b772cf1106c09908b124cc4e471c2578);
+            
+        
+
+        marker_9d583710b97156f17d2772ba20c52272.bindPopup(popup_d0ade98d32a84cced2fb8e83afc243a0)
+        ;
+
+        
+    
+    
+            var marker_787c34e6b094c7e44b2b4e901e530af3 = L.marker(
+                [12.9848798, 77.5677486],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_a844c88d2cbf9316954b7327f12eee73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_787c34e6b094c7e44b2b4e901e530af3.setIcon(icon_a844c88d2cbf9316954b7327f12eee73);
+        
+    
+        var popup_e97dcc4b7a18815539e7a7d3a67bb607 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a03941fe86ca0291c984aa6f3883bddf = $(`<div id="html_a03941fe86ca0291c984aa6f3883bddf" style="width: 100.0%; height: 100.0%;">Okalipuram Apartments</div>`)[0];
+                popup_e97dcc4b7a18815539e7a7d3a67bb607.setContent(html_a03941fe86ca0291c984aa6f3883bddf);
+            
+        
+
+        marker_787c34e6b094c7e44b2b4e901e530af3.bindPopup(popup_e97dcc4b7a18815539e7a7d3a67bb607)
+        ;
+
+        
+    
+    
+            var marker_cbd4e13c9b4f385d60719fb89882d93c = L.marker(
+                [12.9488831, 77.5688061],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_d4cff291abbd83ecd3c4a8eb7147cb8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cbd4e13c9b4f385d60719fb89882d93c.setIcon(icon_d4cff291abbd83ecd3c4a8eb7147cb8e);
+        
+    
+        var popup_d70ca3d2609decf3aee0c3947da38c3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e0ea3023393fc50ac1230f078e178d2 = $(`<div id="html_2e0ea3023393fc50ac1230f078e178d2" style="width: 100.0%; height: 100.0%;">Shilpa Apartments</div>`)[0];
+                popup_d70ca3d2609decf3aee0c3947da38c3d.setContent(html_2e0ea3023393fc50ac1230f078e178d2);
+            
+        
+
+        marker_cbd4e13c9b4f385d60719fb89882d93c.bindPopup(popup_d70ca3d2609decf3aee0c3947da38c3d)
+        ;
+
+        
+    
+    
+            var marker_58bb64adf66bda0e22b3ef28da6495ed = L.marker(
+                [12.9876513, 77.61922249999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_a82decf272cf71b6f143cbafaebee8d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_58bb64adf66bda0e22b3ef28da6495ed.setIcon(icon_a82decf272cf71b6f143cbafaebee8d0);
+        
+    
+        var popup_563583c86b52cf520915387f4887ea44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d12fd910235eb2e2106050f43e731ae0 = $(`<div id="html_d12fd910235eb2e2106050f43e731ae0" style="width: 100.0%; height: 100.0%;">Havilla Lake Point Serviced Apartment</div>`)[0];
+                popup_563583c86b52cf520915387f4887ea44.setContent(html_d12fd910235eb2e2106050f43e731ae0);
+            
+        
+
+        marker_58bb64adf66bda0e22b3ef28da6495ed.bindPopup(popup_563583c86b52cf520915387f4887ea44)
+        ;
+
+        
+    
+    
+            var marker_daa8a6986aedc14770f29ae2da9a2124 = L.marker(
+                [12.9399892, 77.5818125],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_aa111270469e63f3606dd214e25ba2c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_daa8a6986aedc14770f29ae2da9a2124.setIcon(icon_aa111270469e63f3606dd214e25ba2c4);
+        
+    
+        var popup_6868da38485deb9a6572d6db60d4bda5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_435b628c5f5af6e58200f669c47430c3 = $(`<div id="html_435b628c5f5af6e58200f669c47430c3" style="width: 100.0%; height: 100.0%;">Parasmani Regency</div>`)[0];
+                popup_6868da38485deb9a6572d6db60d4bda5.setContent(html_435b628c5f5af6e58200f669c47430c3);
+            
+        
+
+        marker_daa8a6986aedc14770f29ae2da9a2124.bindPopup(popup_6868da38485deb9a6572d6db60d4bda5)
+        ;
+
+        
+    
+    
+            var marker_3cf4f408a348b498aec779f974d941a3 = L.marker(
+                [12.990962999999999, 77.61192299999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_f17a6ec410cd93de9570eac6d4618241 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3cf4f408a348b498aec779f974d941a3.setIcon(icon_f17a6ec410cd93de9570eac6d4618241);
+        
+    
+        var popup_b15f063216530398eeb2589bf9b715c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ff9de599426de1239fa23fb31df3f62 = $(`<div id="html_1ff9de599426de1239fa23fb31df3f62" style="width: 100.0%; height: 100.0%;">Rachel & Sharon Apartments</div>`)[0];
+                popup_b15f063216530398eeb2589bf9b715c5.setContent(html_1ff9de599426de1239fa23fb31df3f62);
+            
+        
+
+        marker_3cf4f408a348b498aec779f974d941a3.bindPopup(popup_b15f063216530398eeb2589bf9b715c5)
+        ;
+
+        
+    
+    
+            var marker_75aa56fbafd90cdbc0ea545b3a609f88 = L.marker(
+                [13.004969, 77.5682985],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_afea83036af3d56349375442a71c3913 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_75aa56fbafd90cdbc0ea545b3a609f88.setIcon(icon_afea83036af3d56349375442a71c3913);
+        
+    
+        var popup_9cc8f50871db064fd5e793433b04f7c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6446b625ffc659922daeaa8d02487aba = $(`<div id="html_6446b625ffc659922daeaa8d02487aba" style="width: 100.0%; height: 100.0%;">Remington Apartments</div>`)[0];
+                popup_9cc8f50871db064fd5e793433b04f7c2.setContent(html_6446b625ffc659922daeaa8d02487aba);
+            
+        
+
+        marker_75aa56fbafd90cdbc0ea545b3a609f88.bindPopup(popup_9cc8f50871db064fd5e793433b04f7c2)
+        ;
+
+        
+    
+    
+            var marker_4a7e61e1a9d31930b0bd5e34b07a61b2 = L.marker(
+                [12.9400052, 77.5752347],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_6ebb9f94c0f70a3326f3f44e462b9a3f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4a7e61e1a9d31930b0bd5e34b07a61b2.setIcon(icon_6ebb9f94c0f70a3326f3f44e462b9a3f);
+        
+    
+        var popup_f183c4354494a2df4a64b87e878d0bda = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d36456f6c5c231837d44d23f9802a10c = $(`<div id="html_d36456f6c5c231837d44d23f9802a10c" style="width: 100.0%; height: 100.0%;">Krishna Park Front Apartments</div>`)[0];
+                popup_f183c4354494a2df4a64b87e878d0bda.setContent(html_d36456f6c5c231837d44d23f9802a10c);
+            
+        
+
+        marker_4a7e61e1a9d31930b0bd5e34b07a61b2.bindPopup(popup_f183c4354494a2df4a64b87e878d0bda)
+        ;
+
+        
+    
+    
+            var marker_b5693829900d1e35ac73d9e646baaa57 = L.marker(
+                [12.967861399999999, 77.5859055],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_dc33b63a863a03be91964b028bf795f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b5693829900d1e35ac73d9e646baaa57.setIcon(icon_dc33b63a863a03be91964b028bf795f2);
+        
+    
+        var popup_1d9f767eadfb0f922885b3c2e69c3f40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f3ac3a58c3f7191767c6672d823e96a = $(`<div id="html_5f3ac3a58c3f7191767c6672d823e96a" style="width: 100.0%; height: 100.0%;">Shri Lakshmi Venkateshwara Nilaya Apartments</div>`)[0];
+                popup_1d9f767eadfb0f922885b3c2e69c3f40.setContent(html_5f3ac3a58c3f7191767c6672d823e96a);
+            
+        
+
+        marker_b5693829900d1e35ac73d9e646baaa57.bindPopup(popup_1d9f767eadfb0f922885b3c2e69c3f40)
+        ;
+
+        
+    
+    
+            var marker_4791add0d93501af4c403889428b6312 = L.marker(
+                [12.9583294, 77.6518184],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_e7a9659a601fe5d36e72c0fafb930224 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4791add0d93501af4c403889428b6312.setIcon(icon_e7a9659a601fe5d36e72c0fafb930224);
+        
+    
+        var popup_934abca58110937a38fbfac4f85cbeb2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d32943f2927094ca9750df12ec3465f = $(`<div id="html_9d32943f2927094ca9750df12ec3465f" style="width: 100.0%; height: 100.0%;">Golden Enclave Apartments</div>`)[0];
+                popup_934abca58110937a38fbfac4f85cbeb2.setContent(html_9d32943f2927094ca9750df12ec3465f);
+            
+        
+
+        marker_4791add0d93501af4c403889428b6312.bindPopup(popup_934abca58110937a38fbfac4f85cbeb2)
+        ;
+
+        
+    
+    
+            var marker_0a5d73800413a5b1511fc98324c40fef = L.marker(
+                [12.9493195, 77.5758491],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_899b39f4164276d2f504c7ab577fc1cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0a5d73800413a5b1511fc98324c40fef.setIcon(icon_899b39f4164276d2f504c7ab577fc1cc);
+        
+    
+        var popup_de512b38d91fa9c57892d448448f76a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_acb99fd69708460f6b6e9643c3de472c = $(`<div id="html_acb99fd69708460f6b6e9643c3de472c" style="width: 100.0%; height: 100.0%;">Pranag Enclave Apartments</div>`)[0];
+                popup_de512b38d91fa9c57892d448448f76a0.setContent(html_acb99fd69708460f6b6e9643c3de472c);
+            
+        
+
+        marker_0a5d73800413a5b1511fc98324c40fef.bindPopup(popup_de512b38d91fa9c57892d448448f76a0)
+        ;
+
+        
+    
+    
+            var marker_b5c39df8dcc819d9a9ab24725f56c2d8 = L.marker(
+                [12.989747699999999, 77.59525909999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_ee543b6cdf2204f6cf6c20c93c54a7ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b5c39df8dcc819d9a9ab24725f56c2d8.setIcon(icon_ee543b6cdf2204f6cf6c20c93c54a7ed);
+        
+    
+        var popup_a0dc08497c3e6845a074ba11cb739b06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06fb53b13a54f57643943375a195c3d3 = $(`<div id="html_06fb53b13a54f57643943375a195c3d3" style="width: 100.0%; height: 100.0%;">Landmark Apartments</div>`)[0];
+                popup_a0dc08497c3e6845a074ba11cb739b06.setContent(html_06fb53b13a54f57643943375a195c3d3);
+            
+        
+
+        marker_b5c39df8dcc819d9a9ab24725f56c2d8.bindPopup(popup_a0dc08497c3e6845a074ba11cb739b06)
+        ;
+
+        
+    
+    
+            var marker_53b5ad4ac0582aaf481508f7656959d6 = L.marker(
+                [12.978606599999999, 77.63627799999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_8b7259a52c9a30f3ed3b999d15c57658 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_53b5ad4ac0582aaf481508f7656959d6.setIcon(icon_8b7259a52c9a30f3ed3b999d15c57658);
+        
+    
+        var popup_67bea3bc8588216b30655362483b005b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7f47212cdb76eff97f7d5ab5f192efc = $(`<div id="html_b7f47212cdb76eff97f7d5ab5f192efc" style="width: 100.0%; height: 100.0%;">Priyadarshini Apartments</div>`)[0];
+                popup_67bea3bc8588216b30655362483b005b.setContent(html_b7f47212cdb76eff97f7d5ab5f192efc);
+            
+        
+
+        marker_53b5ad4ac0582aaf481508f7656959d6.bindPopup(popup_67bea3bc8588216b30655362483b005b)
+        ;
+
+        
+    
+    
+            var marker_e761df41c347e84ffcdedaa055e6a6aa = L.marker(
+                [12.9444736, 77.5987875],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_5d9bf7c6536960f53745d4fa1c4c811c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e761df41c347e84ffcdedaa055e6a6aa.setIcon(icon_5d9bf7c6536960f53745d4fa1c4c811c);
+        
+    
+        var popup_b288b0c5e25cff6e6a991abc2a227474 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f302738e9c084c088b3d07e94f8da12 = $(`<div id="html_3f302738e9c084c088b3d07e94f8da12" style="width: 100.0%; height: 100.0%;">SHAHEEN AEJAZ APARTMENTS</div>`)[0];
+                popup_b288b0c5e25cff6e6a991abc2a227474.setContent(html_3f302738e9c084c088b3d07e94f8da12);
+            
+        
+
+        marker_e761df41c347e84ffcdedaa055e6a6aa.bindPopup(popup_b288b0c5e25cff6e6a991abc2a227474)
+        ;
+
+        
+    
+    
+            var marker_6e9c60a1c41b852f0901e59825ed4d2c = L.marker(
+                [13.004989, 77.604377],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_be0a43e63f31d14cc204e91dbcd3da56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6e9c60a1c41b852f0901e59825ed4d2c.setIcon(icon_be0a43e63f31d14cc204e91dbcd3da56);
+        
+    
+        var popup_10f468b84c05fe494ba85dc83c275a20 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5698f1baaec7c814ebaca646314b37f2 = $(`<div id="html_5698f1baaec7c814ebaca646314b37f2" style="width: 100.0%; height: 100.0%;">Hallmark Apartments</div>`)[0];
+                popup_10f468b84c05fe494ba85dc83c275a20.setContent(html_5698f1baaec7c814ebaca646314b37f2);
+            
+        
+
+        marker_6e9c60a1c41b852f0901e59825ed4d2c.bindPopup(popup_10f468b84c05fe494ba85dc83c275a20)
+        ;
+
+        
+    
+    
+            var marker_f10325965324ab58b272001fbf8cedf4 = L.marker(
+                [12.935799, 77.586162],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_40d143c804ac817ece17e42ca6eb2af1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f10325965324ab58b272001fbf8cedf4.setIcon(icon_40d143c804ac817ece17e42ca6eb2af1);
+        
+    
+        var popup_00c6fe17dd9ec865fb44378e88c9f73d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2440d48c3f104d03b278bb0f31482950 = $(`<div id="html_2440d48c3f104d03b278bb0f31482950" style="width: 100.0%; height: 100.0%;">Infinity Apartments</div>`)[0];
+                popup_00c6fe17dd9ec865fb44378e88c9f73d.setContent(html_2440d48c3f104d03b278bb0f31482950);
+            
+        
+
+        marker_f10325965324ab58b272001fbf8cedf4.bindPopup(popup_00c6fe17dd9ec865fb44378e88c9f73d)
+        ;
+
+        
+    
+    
+            var marker_046be324df839efd1af58594c0ef92d7 = L.marker(
+                [12.9996984, 77.572412],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_cd12ba35026365aa8e90df39307c97b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_046be324df839efd1af58594c0ef92d7.setIcon(icon_cd12ba35026365aa8e90df39307c97b1);
+        
+    
+        var popup_e455868c2717709e080ebe6618b22666 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_825738af2ab6f243a88b55b505b4bedb = $(`<div id="html_825738af2ab6f243a88b55b505b4bedb" style="width: 100.0%; height: 100.0%;">Narasimha Apartments</div>`)[0];
+                popup_e455868c2717709e080ebe6618b22666.setContent(html_825738af2ab6f243a88b55b505b4bedb);
+            
+        
+
+        marker_046be324df839efd1af58594c0ef92d7.bindPopup(popup_e455868c2717709e080ebe6618b22666)
+        ;
+
+        
+    
+    
+            var marker_4f19776f546b0c49704aeada075954c0 = L.marker(
+                [12.9602255, 77.5960807],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_608d9e67316be039cc3c74e2efced2f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4f19776f546b0c49704aeada075954c0.setIcon(icon_608d9e67316be039cc3c74e2efced2f3);
+        
+    
+        var popup_bdbe88ab50cec7b6ffb80ac613763069 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61cf0b4abe2ea06bbc3b93ee88f81006 = $(`<div id="html_61cf0b4abe2ea06bbc3b93ee88f81006" style="width: 100.0%; height: 100.0%;">Casa Andree Apartments</div>`)[0];
+                popup_bdbe88ab50cec7b6ffb80ac613763069.setContent(html_61cf0b4abe2ea06bbc3b93ee88f81006);
+            
+        
+
+        marker_4f19776f546b0c49704aeada075954c0.bindPopup(popup_bdbe88ab50cec7b6ffb80ac613763069)
+        ;
+
+        
+    
+    
+            var marker_f0e08463f56d2d260a6acca965a18db2 = L.marker(
+                [12.9995598, 77.6017657],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_66f3d1538e55431095ac6d5348ffddc9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f0e08463f56d2d260a6acca965a18db2.setIcon(icon_66f3d1538e55431095ac6d5348ffddc9);
+        
+    
+        var popup_27ef47018591b6abcad16c08148b4f03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_501c7fa12b93d114e7f6122b3198b132 = $(`<div id="html_501c7fa12b93d114e7f6122b3198b132" style="width: 100.0%; height: 100.0%;">Swagatham Apartments</div>`)[0];
+                popup_27ef47018591b6abcad16c08148b4f03.setContent(html_501c7fa12b93d114e7f6122b3198b132);
+            
+        
+
+        marker_f0e08463f56d2d260a6acca965a18db2.bindPopup(popup_27ef47018591b6abcad16c08148b4f03)
+        ;
+
+        
+    
+    
+            var marker_bddc0491cfe613a85159cfba24f7a700 = L.marker(
+                [12.992171599999999, 77.56483659999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_4410302299e7510542217b4dd304c749 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bddc0491cfe613a85159cfba24f7a700.setIcon(icon_4410302299e7510542217b4dd304c749);
+        
+    
+        var popup_f677c199c20d4c5f636287af18eb2066 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac360e9bbd8af4631054b4fe2e9f344b = $(`<div id="html_ac360e9bbd8af4631054b4fe2e9f344b" style="width: 100.0%; height: 100.0%;">Sai Ganesh Apartments</div>`)[0];
+                popup_f677c199c20d4c5f636287af18eb2066.setContent(html_ac360e9bbd8af4631054b4fe2e9f344b);
+            
+        
+
+        marker_bddc0491cfe613a85159cfba24f7a700.bindPopup(popup_f677c199c20d4c5f636287af18eb2066)
+        ;
+
+        
+    
+    
+            var marker_2c800e60677184858de761b7b602ba38 = L.marker(
+                [12.9574804, 77.60435489999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_0565c77d8ca2332d2575ccd88225f34d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2c800e60677184858de761b7b602ba38.setIcon(icon_0565c77d8ca2332d2575ccd88225f34d);
+        
+    
+        var popup_b8cf446824149f8016806f7c3c792786 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d20a804d4a938d5e107cb49d93b19469 = $(`<div id="html_d20a804d4a938d5e107cb49d93b19469" style="width: 100.0%; height: 100.0%;">Amber Apartments</div>`)[0];
+                popup_b8cf446824149f8016806f7c3c792786.setContent(html_d20a804d4a938d5e107cb49d93b19469);
+            
+        
+
+        marker_2c800e60677184858de761b7b602ba38.bindPopup(popup_b8cf446824149f8016806f7c3c792786)
+        ;
+
+        
+    
+    
+            var marker_175b35d87c7ef482a4a40091d3729967 = L.marker(
+                [13.000127599999999, 77.5645977],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_844caa9b8e6d6280d5341d18cf185b0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_175b35d87c7ef482a4a40091d3729967.setIcon(icon_844caa9b8e6d6280d5341d18cf185b0c);
+        
+    
+        var popup_7ef856ca3ded4b04598498b45f6b50f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38bf96779934e30abb2fa8a8f2f2348d = $(`<div id="html_38bf96779934e30abb2fa8a8f2f2348d" style="width: 100.0%; height: 100.0%;">Sterling Heights Apartments</div>`)[0];
+                popup_7ef856ca3ded4b04598498b45f6b50f7.setContent(html_38bf96779934e30abb2fa8a8f2f2348d);
+            
+        
+
+        marker_175b35d87c7ef482a4a40091d3729967.bindPopup(popup_7ef856ca3ded4b04598498b45f6b50f7)
+        ;
+
+        
+    
+    
+            var marker_c5676eb264ceecb8b449f9dc749c1c9e = L.marker(
+                [13.0007019, 77.6000166],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_a7482ff71c24e8ffb0540633fcb7b88e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c5676eb264ceecb8b449f9dc749c1c9e.setIcon(icon_a7482ff71c24e8ffb0540633fcb7b88e);
+        
+    
+        var popup_da61cf191fc92a281c32e015d58e1447 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89d3a15a34ca2b642eea3b9bf9dccbab = $(`<div id="html_89d3a15a34ca2b642eea3b9bf9dccbab" style="width: 100.0%; height: 100.0%;">Gold Placido Apartments</div>`)[0];
+                popup_da61cf191fc92a281c32e015d58e1447.setContent(html_89d3a15a34ca2b642eea3b9bf9dccbab);
+            
+        
+
+        marker_c5676eb264ceecb8b449f9dc749c1c9e.bindPopup(popup_da61cf191fc92a281c32e015d58e1447)
+        ;
+
+        
+    
+    
+            var marker_4fe07167b9d1918f91c45a3f8c437725 = L.marker(
+                [13.004252, 77.6259175],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_06a9868ae0d5cbaf628197475d52b383 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4fe07167b9d1918f91c45a3f8c437725.setIcon(icon_06a9868ae0d5cbaf628197475d52b383);
+        
+    
+        var popup_ab40d74c04db10012cc6be359032a72e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2734a6c50f52e32e35fc86ab7f681e5b = $(`<div id="html_2734a6c50f52e32e35fc86ab7f681e5b" style="width: 100.0%; height: 100.0%;">Opulence Apartments</div>`)[0];
+                popup_ab40d74c04db10012cc6be359032a72e.setContent(html_2734a6c50f52e32e35fc86ab7f681e5b);
+            
+        
+
+        marker_4fe07167b9d1918f91c45a3f8c437725.bindPopup(popup_ab40d74c04db10012cc6be359032a72e)
+        ;
+
+        
+    
+    
+            var marker_d0b8dc79c25bda7b705fb5dc3d6caa73 = L.marker(
+                [12.9456996, 77.5985749],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_b0536b3403055e9d4cc9565902aad7b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d0b8dc79c25bda7b705fb5dc3d6caa73.setIcon(icon_b0536b3403055e9d4cc9565902aad7b5);
+        
+    
+        var popup_30c90f2602c5aa56d0fb8354b89b4458 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a09d8afd8a326871a2bb744155fc1bf2 = $(`<div id="html_a09d8afd8a326871a2bb744155fc1bf2" style="width: 100.0%; height: 100.0%;">Comfort Sharada Apartment</div>`)[0];
+                popup_30c90f2602c5aa56d0fb8354b89b4458.setContent(html_a09d8afd8a326871a2bb744155fc1bf2);
+            
+        
+
+        marker_d0b8dc79c25bda7b705fb5dc3d6caa73.bindPopup(popup_30c90f2602c5aa56d0fb8354b89b4458)
+        ;
+
+        
+    
+    
+            var marker_6119972a91be8518f188d0fb1a799d6a = L.marker(
+                [12.9352191, 77.5891676],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_5bd34e8b81951a96e6cc1fd529e037a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6119972a91be8518f188d0fb1a799d6a.setIcon(icon_5bd34e8b81951a96e6cc1fd529e037a1);
+        
+    
+        var popup_98a124f5568a8d61f591e7f90d10ecea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea1079b7b3fc3b70c8dc03282ed39422 = $(`<div id="html_ea1079b7b3fc3b70c8dc03282ed39422" style="width: 100.0%; height: 100.0%;">Chitramala Apartments</div>`)[0];
+                popup_98a124f5568a8d61f591e7f90d10ecea.setContent(html_ea1079b7b3fc3b70c8dc03282ed39422);
+            
+        
+
+        marker_6119972a91be8518f188d0fb1a799d6a.bindPopup(popup_98a124f5568a8d61f591e7f90d10ecea)
+        ;
+
+        
+    
+    
+            var marker_12ff70a3fc8fb81cc7d3065178f96b0f = L.marker(
+                [13.0050311, 77.6031466],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_978ad7941b07d1f92051a6f25669e4e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_12ff70a3fc8fb81cc7d3065178f96b0f.setIcon(icon_978ad7941b07d1f92051a6f25669e4e7);
+        
+    
+        var popup_e17b8973141b47506d1343edfa04b35d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f5c39b185186fc32186755565727254 = $(`<div id="html_9f5c39b185186fc32186755565727254" style="width: 100.0%; height: 100.0%;">Sunrise Afshan Apartments</div>`)[0];
+                popup_e17b8973141b47506d1343edfa04b35d.setContent(html_9f5c39b185186fc32186755565727254);
+            
+        
+
+        marker_12ff70a3fc8fb81cc7d3065178f96b0f.bindPopup(popup_e17b8973141b47506d1343edfa04b35d)
+        ;
+
+        
+    
+    
+            var marker_3468848e795a2b400ddc77c1c1ac3585 = L.marker(
+                [12.9287201, 77.5909247],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_94b1f1c938b850ee286da4bd8880667d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3468848e795a2b400ddc77c1c1ac3585.setIcon(icon_94b1f1c938b850ee286da4bd8880667d);
+        
+    
+        var popup_f72bc452d674726a03b264c66ae2cc80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01b6c24d702b3159d3851d44e985d8b0 = $(`<div id="html_01b6c24d702b3159d3851d44e985d8b0" style="width: 100.0%; height: 100.0%;">Swagath Apartments</div>`)[0];
+                popup_f72bc452d674726a03b264c66ae2cc80.setContent(html_01b6c24d702b3159d3851d44e985d8b0);
+            
+        
+
+        marker_3468848e795a2b400ddc77c1c1ac3585.bindPopup(popup_f72bc452d674726a03b264c66ae2cc80)
+        ;
+
+        
+    
+    
+            var marker_b099f1dd37ddc84275f34df180efdf7a = L.marker(
+                [13.0057637, 77.6157578],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_0f90ab4a53fc0d8cedfae709422b3416 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b099f1dd37ddc84275f34df180efdf7a.setIcon(icon_0f90ab4a53fc0d8cedfae709422b3416);
+        
+    
+        var popup_1ac00058e68810a5bcde11919bdb8470 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0f64a753dbfee62b7823aaef4a2abbc = $(`<div id="html_d0f64a753dbfee62b7823aaef4a2abbc" style="width: 100.0%; height: 100.0%;">Golden Crescent Apartments</div>`)[0];
+                popup_1ac00058e68810a5bcde11919bdb8470.setContent(html_d0f64a753dbfee62b7823aaef4a2abbc);
+            
+        
+
+        marker_b099f1dd37ddc84275f34df180efdf7a.bindPopup(popup_1ac00058e68810a5bcde11919bdb8470)
+        ;
+
+        
+    
+    
+            var marker_084c1ad0796ebf1553a5b6cdf617e6b5 = L.marker(
+                [12.9965684, 77.6076807],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_c2f54d17a2bd50afc4b5da91d874d2a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_084c1ad0796ebf1553a5b6cdf617e6b5.setIcon(icon_c2f54d17a2bd50afc4b5da91d874d2a1);
+        
+    
+        var popup_2da5b233ab8f52eaef0fb604669fef86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70c3adef20a5c1d05e17813e0e82b5a1 = $(`<div id="html_70c3adef20a5c1d05e17813e0e82b5a1" style="width: 100.0%; height: 100.0%;">Nidhi Apartments</div>`)[0];
+                popup_2da5b233ab8f52eaef0fb604669fef86.setContent(html_70c3adef20a5c1d05e17813e0e82b5a1);
+            
+        
+
+        marker_084c1ad0796ebf1553a5b6cdf617e6b5.bindPopup(popup_2da5b233ab8f52eaef0fb604669fef86)
+        ;
+
+        
+    
+    
+            var marker_a2a4ccc8ed1a5129ce6e9b468a3fa4cf = L.marker(
+                [12.9777975, 77.6251576],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_5e3bb22d6e4f9a582d74b99348c7081e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a2a4ccc8ed1a5129ce6e9b468a3fa4cf.setIcon(icon_5e3bb22d6e4f9a582d74b99348c7081e);
+        
+    
+        var popup_735f0c271be2fa403442d558100eb755 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f1f3b0d3404ff25f537152a98ce3311 = $(`<div id="html_8f1f3b0d3404ff25f537152a98ce3311" style="width: 100.0%; height: 100.0%;">Nanda Gokula Apartments</div>`)[0];
+                popup_735f0c271be2fa403442d558100eb755.setContent(html_8f1f3b0d3404ff25f537152a98ce3311);
+            
+        
+
+        marker_a2a4ccc8ed1a5129ce6e9b468a3fa4cf.bindPopup(popup_735f0c271be2fa403442d558100eb755)
+        ;
+
+        
+    
+    
+            var marker_c612667aeae7f634ea0d44cb9d9a8f63 = L.marker(
+                [12.9987266, 77.62370469999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_3a3316837866e370974675194ea9880f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c612667aeae7f634ea0d44cb9d9a8f63.setIcon(icon_3a3316837866e370974675194ea9880f);
+        
+    
+        var popup_b4a349d3b0bd04c9bef09b2d57d678de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20588e6cd94bf9ca1db268f6811c84f6 = $(`<div id="html_20588e6cd94bf9ca1db268f6811c84f6" style="width: 100.0%; height: 100.0%;">Fortune Square Apartments</div>`)[0];
+                popup_b4a349d3b0bd04c9bef09b2d57d678de.setContent(html_20588e6cd94bf9ca1db268f6811c84f6);
+            
+        
+
+        marker_c612667aeae7f634ea0d44cb9d9a8f63.bindPopup(popup_b4a349d3b0bd04c9bef09b2d57d678de)
+        ;
+
+        
+    
+    
+            var marker_d2961a937ff660ff65ef1198a07ceab9 = L.marker(
+                [13.0015974, 77.6156216],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_a932af04eef45a805d27127689dd9bf6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d2961a937ff660ff65ef1198a07ceab9.setIcon(icon_a932af04eef45a805d27127689dd9bf6);
+        
+    
+        var popup_4ff3191109617672d802da8c0687ed87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf8f6811414b7d16153c2ac2fd4a7d5f = $(`<div id="html_bf8f6811414b7d16153c2ac2fd4a7d5f" style="width: 100.0%; height: 100.0%;">DM APARTMENTS</div>`)[0];
+                popup_4ff3191109617672d802da8c0687ed87.setContent(html_bf8f6811414b7d16153c2ac2fd4a7d5f);
+            
+        
+
+        marker_d2961a937ff660ff65ef1198a07ceab9.bindPopup(popup_4ff3191109617672d802da8c0687ed87)
+        ;
+
+        
+    
+    
+            var marker_a2542c352880a7789b3f054bd420236e = L.marker(
+                [12.958433, 77.604152],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_a50d6147883222e5ec7ad24aa934e424 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a2542c352880a7789b3f054bd420236e.setIcon(icon_a50d6147883222e5ec7ad24aa934e424);
+        
+    
+        var popup_83bde79b7ca7be05b56f53ee8043d1df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0ab66c26650f2aed185d4baef3b4895 = $(`<div id="html_b0ab66c26650f2aed185d4baef3b4895" style="width: 100.0%; height: 100.0%;">Konark Moyenville Apartments</div>`)[0];
+                popup_83bde79b7ca7be05b56f53ee8043d1df.setContent(html_b0ab66c26650f2aed185d4baef3b4895);
+            
+        
+
+        marker_a2542c352880a7789b3f054bd420236e.bindPopup(popup_83bde79b7ca7be05b56f53ee8043d1df)
+        ;
+
+        
+    
+    
+            var marker_069712fae64e0054616be33370eae17b = L.marker(
+                [12.9440466, 77.5749386],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_a05ad2bb58899c724ef7a3dc37f77ec7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_069712fae64e0054616be33370eae17b.setIcon(icon_a05ad2bb58899c724ef7a3dc37f77ec7);
+        
+    
+        var popup_d5ee55ee4cf7c599b96898f5a705238d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df38cde045eec871afbc01a62d12bd93 = $(`<div id="html_df38cde045eec871afbc01a62d12bd93" style="width: 100.0%; height: 100.0%;">Kumar Paradise Apartments</div>`)[0];
+                popup_d5ee55ee4cf7c599b96898f5a705238d.setContent(html_df38cde045eec871afbc01a62d12bd93);
+            
+        
+
+        marker_069712fae64e0054616be33370eae17b.bindPopup(popup_d5ee55ee4cf7c599b96898f5a705238d)
+        ;
+
+        
+    
+    
+            var marker_a04422d881635fe935b53a7075611f41 = L.marker(
+                [12.9415362, 77.58302499999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_874a76f34af7e6fc635e90a17d1709cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a04422d881635fe935b53a7075611f41.setIcon(icon_874a76f34af7e6fc635e90a17d1709cd);
+        
+    
+        var popup_8a6051efbdb1820bc72121e83667a6de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8dde21dced03dc8c4aa9906eabb2a43 = $(`<div id="html_c8dde21dced03dc8c4aa9906eabb2a43" style="width: 100.0%; height: 100.0%;">Sri Sai Siri Apartments</div>`)[0];
+                popup_8a6051efbdb1820bc72121e83667a6de.setContent(html_c8dde21dced03dc8c4aa9906eabb2a43);
+            
+        
+
+        marker_a04422d881635fe935b53a7075611f41.bindPopup(popup_8a6051efbdb1820bc72121e83667a6de)
+        ;
+
+        
+    
+    
+            var marker_56f8a0d48fad2bea7840b3a538e9fb4a = L.marker(
+                [12.9579297, 77.5951358],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_ed42f74ced280bc9e135abadd3bcc1cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_56f8a0d48fad2bea7840b3a538e9fb4a.setIcon(icon_ed42f74ced280bc9e135abadd3bcc1cd);
+        
+    
+        var popup_de7dd55031a99720d1ade1fae60f9359 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0cd1adb3cd018cc4e23f94d1cfb1959a = $(`<div id="html_0cd1adb3cd018cc4e23f94d1cfb1959a" style="width: 100.0%; height: 100.0%;">Shri Abhirami Apartments</div>`)[0];
+                popup_de7dd55031a99720d1ade1fae60f9359.setContent(html_0cd1adb3cd018cc4e23f94d1cfb1959a);
+            
+        
+
+        marker_56f8a0d48fad2bea7840b3a538e9fb4a.bindPopup(popup_de7dd55031a99720d1ade1fae60f9359)
+        ;
+
+        
+    
+    
+            var marker_f0e72211b8de21319e6e4a47bbfb26b5 = L.marker(
+                [12.9686177, 77.60952],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_2ac75323296bda83d514494535fc561b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f0e72211b8de21319e6e4a47bbfb26b5.setIcon(icon_2ac75323296bda83d514494535fc561b);
+        
+    
+        var popup_75e9f0a23706ce1d6f1cc8503617840e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fba1dac5125074245affd4aeddd2ebc0 = $(`<div id="html_fba1dac5125074245affd4aeddd2ebc0" style="width: 100.0%; height: 100.0%;">Topway residency apartments</div>`)[0];
+                popup_75e9f0a23706ce1d6f1cc8503617840e.setContent(html_fba1dac5125074245affd4aeddd2ebc0);
+            
+        
+
+        marker_f0e72211b8de21319e6e4a47bbfb26b5.bindPopup(popup_75e9f0a23706ce1d6f1cc8503617840e)
+        ;
+
+        
+    
+    
+            var marker_f47f5b9a048a12ca6eeb825f6cd005e9 = L.marker(
+                [13.004552499999999, 77.6181105],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_6b9896688796f1bc205c7522475dd483 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f47f5b9a048a12ca6eeb825f6cd005e9.setIcon(icon_6b9896688796f1bc205c7522475dd483);
+        
+    
+        var popup_5705b0394afbe3d5e1edc2ddafd635c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3be889fbec150cb025595aeadc92475f = $(`<div id="html_3be889fbec150cb025595aeadc92475f" style="width: 100.0%; height: 100.0%;">Ashok Parkview Apartments</div>`)[0];
+                popup_5705b0394afbe3d5e1edc2ddafd635c5.setContent(html_3be889fbec150cb025595aeadc92475f);
+            
+        
+
+        marker_f47f5b9a048a12ca6eeb825f6cd005e9.bindPopup(popup_5705b0394afbe3d5e1edc2ddafd635c5)
+        ;
+
+        
+    
+    
+            var marker_14dda200acbff2c85b3b205c54b9f115 = L.marker(
+                [12.9539457, 77.5729635],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_6212be1ae9dae5124e55b292c371ab25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_14dda200acbff2c85b3b205c54b9f115.setIcon(icon_6212be1ae9dae5124e55b292c371ab25);
+        
+    
+        var popup_f4cf0f7f3d1c9568eeaddd57f262242c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c2430c2bf58dfd98e6657338312059f = $(`<div id="html_1c2430c2bf58dfd98e6657338312059f" style="width: 100.0%; height: 100.0%;">Munoth Habitat Orchid Apartment</div>`)[0];
+                popup_f4cf0f7f3d1c9568eeaddd57f262242c.setContent(html_1c2430c2bf58dfd98e6657338312059f);
+            
+        
+
+        marker_14dda200acbff2c85b3b205c54b9f115.bindPopup(popup_f4cf0f7f3d1c9568eeaddd57f262242c)
+        ;
+
+        
+    
+    
+            var marker_8765e1d545ec377dc57c4955261039b4 = L.marker(
+                [13.0060135, 77.60514959999999],
+                {}
+            ).addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+    
+            var icon_3121b8dfa3a8f989d2931177c5d5a497 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8765e1d545ec377dc57c4955261039b4.setIcon(icon_3121b8dfa3a8f989d2931177c5d5a497);
+        
+    
+        var popup_673704e37cabf53118bcd1c0582960d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d7b489d3631174ac431d171bded17f0 = $(`<div id="html_6d7b489d3631174ac431d171bded17f0" style="width: 100.0%; height: 100.0%;">Samrudhi Apartments</div>`)[0];
+                popup_673704e37cabf53118bcd1c0582960d5.setContent(html_6d7b489d3631174ac431d171bded17f0);
+            
+        
+
+        marker_8765e1d545ec377dc57c4955261039b4.bindPopup(popup_673704e37cabf53118bcd1c0582960d5)
+        ;
+
+        
+    
+    
+            tile_layer_e30dd6d6ca4bde468869f2f8bb823fba.addTo(map_650a1bd10fd38d8662a94bc8b0c9a1a6);
+        
+</script>
+</html>
